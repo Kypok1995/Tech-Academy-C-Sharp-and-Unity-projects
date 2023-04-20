@@ -1,8 +1,8 @@
 using System;
 
-class SampleApplication
+class SampleReport
 {
-    void DailyReport()
+    public void DailyReport()
     {
         Console.WriteLine("What is your name?");
         string studentName = Console.ReadLine(); //to store student name
@@ -21,7 +21,7 @@ class SampleApplication
         Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
         string studentExperience = Console.ReadLine(); // to store student experience
 
-        Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
+        Console.WriteLine("Is there any other feedback you would like to provide? Please be specific.");
         string studentFeedback = Console.ReadLine(); //to store student's feedback
 
         Console.WriteLine("How many hours did you study today?");
@@ -30,9 +30,8 @@ class SampleApplication
 
         Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day! \nIf you would like to check results of your Daily Report pleese type \u0022yes\u0022 or \u0022no\u0022. ");
         string studentDailyConsent = Console.ReadLine();
-        studentDailyConsent.ToUpper();
 
-        if (studentDailyConsent == "YES"){
+        if (studentDailyConsent.ToUpper() == "YES"){
             Console.WriteLine("Student's name: " + studentName + "\nStudent's course: " + studentCourse + 
             "\nPage number in the course is: " + studentPageNumber + "\nStudent need help true/false: " + studentAnswerBool
             + "\nStudent would like to share experience about: " + studentExperience
@@ -40,7 +39,7 @@ class SampleApplication
             + "\nStudent study following amount of hours this week: " +studentHoursInt);
               
         }
-        else if (studentDailyConsent == "NO"){
+        else if (studentDailyConsent.ToUpper() == "NO"){
             Console.WriteLine("Have a good day!");
         }
 
@@ -50,7 +49,9 @@ class SampleApplication
     {
         Console.WriteLine("The Tech Academy \nStudent Daily Report.\n");
 
-        DailyReport();
+        var student = new SampleReport();
+        student.DailyReport();
+
 
     }
 }
