@@ -5,3 +5,10 @@ C:\Users\Andrei\Desktop\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.c
 C:\Users\Andrei\Desktop\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.csproj.CoreCompileInputs.cache
 C:\Users\Andrei\Desktop\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.exe
 C:\Users\Andrei\Desktop\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\myConsoleProject.cs.exe.config
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\myConsoleProject.cs.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\myConsoleProject.cs.pdb
