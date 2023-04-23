@@ -1,0 +1,16 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\BooleanLogic.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\BooleanLogic.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\BooleanLogic.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\BooleanLogic.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\BooleanLogic.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\ref\BooleanLogic.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\bin\Debug\net5.0\BooleanLogic.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\ref\BooleanLogic.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BooleanLogic\BooleanLogic\obj\Debug\net5.0\BooleanLogic.genruntimeconfig.cache
