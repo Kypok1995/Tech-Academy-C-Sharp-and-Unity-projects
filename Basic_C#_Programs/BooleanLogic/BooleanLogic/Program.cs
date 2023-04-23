@@ -47,7 +47,28 @@ namespace BooleanLogic
         static void Main(string[] args)
         {
             var insurance = new Program();
-            insurance.InsuranceApproval();
+            //insurance.InsuranceApproval();
+
+            /*int num1 = 10;
+            int num2 = 15;
+
+            if (num1 >= num2)
+            {
+                Console.WriteLine("1st number is greater or equal to the second");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("2nd number is greater or equal to the 1st");
+                Console.ReadLine();
+            }*/
+
+         /*   int num1 = 10;
+            int num2 = 15;
+            string result = num1 > num2 ? "number 1 is bigger" : "number 2 is bigger";
+            Console.WriteLine(result);*/
+
+
         }
     }
 }

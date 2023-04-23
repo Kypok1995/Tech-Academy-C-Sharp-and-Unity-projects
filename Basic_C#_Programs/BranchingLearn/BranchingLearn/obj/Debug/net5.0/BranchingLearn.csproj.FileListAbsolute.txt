@@ -1,0 +1,16 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\BranchingLearn.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\BranchingLearn.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\BranchingLearn.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\BranchingLearn.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\BranchingLearn.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\ref\BranchingLearn.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\bin\Debug\net5.0\BranchingLearn.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\ref\BranchingLearn.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\BranchingLearn\BranchingLearn\obj\Debug\net5.0\BranchingLearn.genruntimeconfig.cache
