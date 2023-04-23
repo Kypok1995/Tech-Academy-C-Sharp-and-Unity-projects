@@ -33,7 +33,7 @@ namespace BranchingLearn
 
             float packageShipCost = (packageHeight * packageLength * packageWidth) * packageWeight / 100; //to calculate shipping cost
 
-            Console.WriteLine("Your estimated total for shipping this package is: $" + packageShipCost); //to write shipping cost
+            Console.WriteLine("Your estimated total for shipping this package is: $" + packageShipCost + ".00"); //to write shipping cost
         }
 
         static void Main(string[] args)
