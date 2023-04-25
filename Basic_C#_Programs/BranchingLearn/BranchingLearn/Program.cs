@@ -24,9 +24,9 @@ namespace BranchingLearn
             Console.WriteLine("Please enter length of your package"); //for package length
             int packageLength = Convert.ToInt32(Console.ReadLine());
 
-            if (packageWeight > 50 || packageLength > 50 || packageHeight > 50) //checks if package is eligeble for shipping
+            if ((packageHeight + packageLength + packageWidth) > 50) //checks if package is eligeble for shipping 
             {
-                Console.WriteLine("Package too big to be shipped via Package Express.");
+                Console.WriteLine("Package too big to be shipped via Package Express. Have a good day!"); // If the dimensions total greater than 50, display the error message
                 Console.ReadLine();
                 return;
             }
