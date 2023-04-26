@@ -27,7 +27,6 @@ namespace BranchingLearn
             if ((packageHeight + packageLength + packageWidth) > 50) //checks if package is eligeble for shipping 
             {
                 Console.WriteLine("Package too big to be shipped via Package Express. Have a good day!"); // If the dimensions total greater than 50, display the error message
-                Console.ReadLine();
                 return;
             }
 
