@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\StringFunctions.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\StringFunctions.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\StringFunctions.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\StringFunctions.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\StringFunctions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\ref\StringFunctions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\bin\Debug\net5.0\StringFunctions.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\ref\StringFunctions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\net5.0\StringFunctions.genruntimeconfig.cache
