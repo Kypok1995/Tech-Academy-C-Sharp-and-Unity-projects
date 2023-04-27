@@ -46,13 +46,13 @@ using System.Collections.Generic;
 
         if (answer == 3) //for showing list of strings
         {
-            List<string> stringList = new List<string>();
-            stringList.Add("Seattle");
-            stringList.Add("Moscow");
-            stringList.Add("Novosibirsk");
-            stringList.Add("Boston");
-            stringList.Add("Limassol");
-            stringList.Add("Warsaw");
+            List<string> stringList = new List<string> { "Seattle", "Moscow", "Novosibirsk", "Boston", "Limassol", "Warsaw" };
+          
+            /* stringList.AddRange( new List<string>
+            {
+            }); // to add multiple objects into list*/
+            
+
 
             Console.WriteLine("Here you can find list of my favourite cities!\nChoose a number between 0 and 5 and check out my favourite cities!");
             int listIndex = Convert.ToInt32(Console.ReadLine());
