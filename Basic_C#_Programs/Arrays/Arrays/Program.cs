@@ -70,7 +70,7 @@ using System.Collections.Generic;
 
         }
         
-        else if(answer > 3)
+        else if(answer > 3) //to show error, if answer is bigger than 3
         {
             Console.WriteLine("Sorry, there are only 3 options currently available in this program.");
             return;
