@@ -101,7 +101,7 @@ namespace ArraysAndLists
         void searchList2() //for 5th part of assigment
         {
             List<string> bestDishes = new List<string> {"Sausage", "Cronut", "French fries", "Chicken and Waffles", "Pancakes", 
-                "Mac and Cheese", "Hot Dogs", "Cheesecake", "Burger", "Burger with french fries", "Chicken wings", "Hot Dog with sausage", "Pancakes", "Burger"};
+                "Mac and Cheese", "Hot Dogs", "Cheesecake", "Burger", "Burger with french fries", "Chicken wings", "Hot Dog with sausage", "Pancakes with honey", "American Burger"};
 
             Console.WriteLine("In this function you can find a list of most popular American dishes! You can check, if your dish is popular or not!\nPlease type your favourite dish");
             string userDish = Console.ReadLine(); //to put user's input into string
@@ -153,7 +153,7 @@ namespace ArraysAndLists
                 Console.WriteLine("\nWelcome to my assigment program!\nHere you can find different functions:" +
                     "\n1. Function for 1st part of assigment" + "\n2. Function for 2nd part of assigment"
                     + "\n3. Function for 3rd part of assigment" + "\n4. Function for 4th part of assigment" +
-                    "\n4. Function for 5th part of assigment" + "\n6. Function for 6th part of assigment" + "\nPlease enter number of function you would like to try! If you would like to leave a program enter \"0\"");
+                    "\n5. Function for 5th part of assigment" + "\n6. Function for 6th part of assigment" + "\nPlease enter number of function you would like to try! If you would like to leave a program enter \"0\"");
 
                 int answer = Convert.ToInt32(Console.ReadLine());
 
@@ -226,11 +226,11 @@ namespace ArraysAndLists
 
             //testVar.searchList(); // for 4th part of assigment
 
-            //  testVar.searchList2(); // for 5th part of assigment
+            // testVar.searchList2(); // for 5th part of assigment
 
             // testVar.searchList3(); //for 6th part of assigment
 
-            testVar.lookingForMethods();
+          testVar.lookingForMethods();
 
 
 

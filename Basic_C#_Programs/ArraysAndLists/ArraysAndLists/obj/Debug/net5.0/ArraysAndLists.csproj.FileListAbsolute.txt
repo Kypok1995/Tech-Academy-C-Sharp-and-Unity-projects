@@ -13,3 +13,4 @@ C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C
 C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\net5.0\ref\ArraysAndLists.dll
 C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\net5.0\ArraysAndLists.pdb
 C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\net5.0\ArraysAndLists.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\net5.0\ArraysAndLists.csproj.AssemblyReference.cache
