@@ -23,7 +23,7 @@ namespace MathMethods
             return result;
         }
 
-        public double factorial_While_Loop (double number){
+        public double Factorial (double number){
         double result = 1;
             while (number != 1)
             {
