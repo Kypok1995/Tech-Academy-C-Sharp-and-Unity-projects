@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\MathMethods.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\MathMethods.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\MathMethods.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\MathMethods.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\MathMethods.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\ref\MathMethods.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\bin\Debug\net5.0\MathMethods.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\ref\MathMethods.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MathMethods\MathMethods\obj\Debug\net5.0\MathMethods.genruntimeconfig.cache
