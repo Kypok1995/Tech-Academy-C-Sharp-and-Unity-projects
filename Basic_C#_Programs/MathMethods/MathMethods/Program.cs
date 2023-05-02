@@ -14,11 +14,11 @@ namespace MathMethods
                             "\n3. Function for finding factorial."+ 
                             "\nPlease input one integer for all 3 functions");
             
-            double number = Convert.ToDouble(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
 
-            double resultOne = test.Power(number);
-            double resultTwo = test.Remainder(number);
-            double resultThree = test.Factorial(number);
+            int resultOne = test.Power(number);
+            int resulTwo = test.Remainder(number);
+            int resultThree = test.factorial(number);
 
             Console.WriteLine("Result of raising a number to the third power is " + resultOne +
                             "\nRemainder of division of 100 by your number is " + resultTwo +
