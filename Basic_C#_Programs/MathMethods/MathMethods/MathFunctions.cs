@@ -23,6 +23,14 @@ namespace MathMethods
             return result;
         }
 
-        public double 
+        public double factorial_While_Loop (double number){
+        double result = 1;
+            while (number != 1)
+            {
+            result = result * number;
+            number = number - 1;
+            }
+        return result;
+        }
     }
 }
