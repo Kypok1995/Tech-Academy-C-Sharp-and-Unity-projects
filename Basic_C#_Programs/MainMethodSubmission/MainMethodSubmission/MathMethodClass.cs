@@ -19,11 +19,11 @@ namespace MainMethodSubmission
             return circleArea;
         }
 
-        public decimal MathMethod (decimal number) //method for finding a square root of decimal number, using sqrt function
+        public int MathMethod (decimal number) //method for finding a square root of decimal number, using sqrt function
         {
             double numberDouble = Convert.ToDouble(number);
             double resultDouble = Math.Sqrt(numberDouble);
-            decimal result = Convert.ToDecimal(resultDouble);
+            int result = Convert.ToInt32(resultDouble);
 
             return result;
         }
