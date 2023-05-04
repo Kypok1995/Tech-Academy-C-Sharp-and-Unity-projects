@@ -11,7 +11,8 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            deck = Shuffle(deck);
+            
+            deck.Shuffle();
 
             foreach(Card card in deck.Cards)
             {
@@ -23,20 +24,6 @@ namespace TwentyOne
             //Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
 
         }
-        public static Deck Shuffle(Deck deck) //public method with deck return type and deck parameter
-        {
-            List<Card> TempList = new List<Card>(); //temporary list for storing shuffled values
-            Random random = new Random(); //new instance of class random
-
-            while(deck.Cards.Count > 0) //until all cards removed from list
-            {
-                int randomIndex = random.Next(0, deck.Cards.Count); //random between 0 and 52
-                TempList.Add(deck.Cards[randomIndex]); //add a card at random index to a temporary deck
-                deck.Cards.RemoveAt(randomIndex); //remove from main deck
-            }
-            deck.Cards = TempList; //assign a main deck values from temporary (shuffled) deck
-            return deck; //return shuffled deck
-
-        }
+       
     }
 }
