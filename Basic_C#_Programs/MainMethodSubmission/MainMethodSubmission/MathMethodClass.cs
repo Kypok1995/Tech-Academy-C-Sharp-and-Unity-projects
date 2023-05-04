@@ -19,7 +19,7 @@ namespace MainMethodSubmission
             return circleArea;
         }
 
-        public decimal MathMethod (decimal number)
+        public decimal MathMethod (decimal number) //method for finding a square root of decimal number, using sqrt function
         {
             double numberDouble = Convert.ToDouble(number);
             double resultDouble = Math.Sqrt(numberDouble);
@@ -28,7 +28,7 @@ namespace MainMethodSubmission
             return result;
         }
 
-        public int MathMethod(string numberString)
+        public int MathMethod(string numberString) //method for finding a factorial of the number
         {
             int number = Convert.ToInt32(numberString);
             int result = 1;
