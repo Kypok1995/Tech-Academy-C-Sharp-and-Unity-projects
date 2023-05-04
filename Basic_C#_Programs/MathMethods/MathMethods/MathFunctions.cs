@@ -9,20 +9,30 @@ namespace MathMethods
     class MathFunctions
     {
 
-        public double Power(double number) //to put a number into 3rd power
+        public int Power(int number) //to put a number into 3rd power
         {
-            double result = Math.Pow(number, 3);
+            double resultDouble = Math.Pow(number, 3);
+                
+            int result = Convert.ToInt32(resultDouble);
+            return result;
+        }
+
+        public int Remainder(int number) 
+        {
+            int result = 100 % number;
 
             return result;
         }
 
-        public double Remainder(double number)
+        public int factorial(int number)
         {
-            double result = 100 % number;
-
-            return result;
+        int result = 1;
+        while (number != 1)
+        {
+        result = result * number;
+        number = number - 1;
         }
-
-        public double 
+        return result;
+        }
     }
 }
