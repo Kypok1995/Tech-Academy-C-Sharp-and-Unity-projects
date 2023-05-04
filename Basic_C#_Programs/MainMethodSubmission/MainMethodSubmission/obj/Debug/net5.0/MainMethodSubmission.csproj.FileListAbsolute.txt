@@ -1,0 +1,16 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\MainMethodSubmission.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\MainMethodSubmission.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\MainMethodSubmission.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\MainMethodSubmission.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\MainMethodSubmission.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\ref\MainMethodSubmission.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\bin\Debug\net5.0\MainMethodSubmission.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\ref\MainMethodSubmission.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\MainMethodSubmission\MainMethodSubmission\obj\Debug\net5.0\MainMethodSubmission.genruntimeconfig.cache
