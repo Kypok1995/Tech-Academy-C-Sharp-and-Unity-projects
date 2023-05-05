@@ -14,5 +14,12 @@ namespace MethodClassSubmissionAssigment
             Console.WriteLine("The second parameter of this method is: " + shownNumber); //display the second integer to the screen.
         }
 
+        public void DivideByTwo(int number) //method to divide a number by two
+        {
+            Console.WriteLine("Your number divided by two equals: " + number/2);
+        }
+
+
+
     }
 }
