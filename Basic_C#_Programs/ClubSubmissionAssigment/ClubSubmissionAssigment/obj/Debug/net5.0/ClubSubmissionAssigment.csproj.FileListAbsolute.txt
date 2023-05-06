@@ -1,0 +1,16 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ClubSubmissionAssigment.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ClubSubmissionAssigment.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ClubSubmissionAssigment.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ClubSubmissionAssigment.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ClubSubmissionAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ref\ClubSubmissionAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\bin\Debug\net5.0\ClubSubmissionAssigment.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ref\ClubSubmissionAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClubSubmissionAssigment\ClubSubmissionAssigment\obj\Debug\net5.0\ClubSubmissionAssigment.genruntimeconfig.cache
