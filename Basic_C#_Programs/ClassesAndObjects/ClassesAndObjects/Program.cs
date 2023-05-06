@@ -10,11 +10,14 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Deck deck = new Deck();
-            
-            deck.Shuffle();
 
-            foreach(Card card in deck.Cards)
+            Deck deck = new Deck();
+
+            // Card card = new Card() { Face = "King", Suit = "Spades" }; //to instantiate an object immidiately 
+
+            deck.Shuffle(3);
+
+            foreach (Card card in deck.Cards)
             {
                 Console.WriteLine(card.Face + " of " + card.Suit);
             }
@@ -24,6 +27,6 @@ namespace TwentyOne
             //Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
 
         }
-       
+
     }
 }

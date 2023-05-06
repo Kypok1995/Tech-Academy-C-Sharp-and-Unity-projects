@@ -1,0 +1,16 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ClassInheritanceAssigment.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ClassInheritanceAssigment.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ClassInheritanceAssigment.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ClassInheritanceAssigment.runtimeconfig.dev.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ClassInheritanceAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ref\ClassInheritanceAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\bin\Debug\net5.0\ClassInheritanceAssigment.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ref\ClassInheritanceAssigment.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\ClassInheritanceAssigment\ClassInheritanceAssigment\obj\Debug\net5.0\ClassInheritanceAssigment.genruntimeconfig.cache
