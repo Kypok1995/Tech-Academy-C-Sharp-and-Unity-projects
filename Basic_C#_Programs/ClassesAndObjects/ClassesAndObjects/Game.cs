@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Game
+    public abstract class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
+        public abstract void Play(); //abstract method with no implementation
+
         public string Dealer { get; set;  }
 
-        public void ListPlayers()
+        public virtual void ListPlayers() //basic virtual method with some implementation
         {
             foreach(string player in Players)
             {

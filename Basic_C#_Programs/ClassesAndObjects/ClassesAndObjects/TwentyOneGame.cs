@@ -8,9 +8,15 @@ namespace TwentyOne
 {
     public class TwentyOneGame : Game
     {
-        public void Play()
+        public override void Play() //abstract method from abstract class with implementation in inherited class. Inherited class must have implementation for abstract method
         {
             throw new NotImplementedException();
+        }
+
+        public override void ListPlayers() //override virtual method from Game class
+        {
+            Console.WriteLine("21 players: ");
+            base.ListPlayers();
         }
     }
 }
