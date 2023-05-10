@@ -20,5 +20,32 @@ namespace ClassInheritanceAssigment
             Console.WriteLine("All right, that's enough for me!! I, " + FirstName + " " + LastName + " , leaving this job at " + DateTime.Now);
         }
 
+        public static bool operator==(Employee employee1, Employee employee2) //overload == operator to check employees id
+        {
+            if (employee1.id == employee2.id)
+            {
+                Console.WriteLine("This emplotees have a same ID");
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("It is different employees for sure, they have different IDs.");
+                return false;
+            }
+        }
+
+        public static bool operator != (Employee employee1, Employee employee2) //than overloading == operator, you should overload != operator as well
+        {
+            if (employee1.id != employee2.id)
+            {
+                Console.WriteLine("This are different employees with different IDs");
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("It is same employee with same ID");
+                return false;
+            }
+        }
     }
 }
