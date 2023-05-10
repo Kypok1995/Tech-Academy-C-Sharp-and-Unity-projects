@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassInheritanceAssigment
 {
-    public class Employee: Person, IQuittable //Create another class called Employee and have it inherit from the Person class. Give the Employee class a property called Id and have it be of data type int.
+    public class Employee<T>: Person, IQuittable //Create another class called Employee and have it inherit from the Person class. Give the Employee class a property called Id and have it be of data type int.
     {
         public int id { get; set; }
 
@@ -20,7 +20,7 @@ namespace ClassInheritanceAssigment
             Console.WriteLine("All right, that's enough for me!! I, " + FirstName + " " + LastName + " , leaving this job at " + DateTime.Now);
         }
 
-        public static bool operator==(Employee employee1, Employee employee2) //overload == operator to check employees id
+        public static bool  operator==(Employee<T> employee1, Employee<T> employee2) //overload == operator to check employees id
         {
             if (employee1.id == employee2.id)
             {
@@ -34,7 +34,9 @@ namespace ClassInheritanceAssigment
             }
         }
 
-        public static bool operator != (Employee employee1, Employee employee2) //than overloading == operator, you should overload != operator as well
+        public List<T> Things { get; set; }
+
+        public static bool operator != (Employee<T> employee1, Employee<T> employee2) //than overloading == operator, you should overload != operator as well
         {
             if (employee1.id != employee2.id)
             {

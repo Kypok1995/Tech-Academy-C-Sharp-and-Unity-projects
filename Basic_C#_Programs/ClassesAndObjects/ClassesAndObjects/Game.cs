@@ -16,7 +16,7 @@ namespace TwentyOne
 
         public virtual void ListPlayers() //basic virtual method with some implementation
         {
-            foreach(Player player in Players)
+            foreach (Player player in Players)
             {
                 Console.WriteLine(player);
             }
