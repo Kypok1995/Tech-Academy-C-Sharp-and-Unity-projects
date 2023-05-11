@@ -23,19 +23,21 @@ namespace ClassInheritanceAssigment
             Employee<string> employee6 = new Employee<string>() { FirstName = "Generic", LastName = "Class" }; //Instantiate an Employee object with type “string” as its generic parameter. 
             employee6.Things = new List<string> { "Workspace", "Laptop", "Office pen", "Chair" }; //Assign a list of strings as the property value of Things.
 
-            Employee<int> employee7 = new Employee<string>() { FirstName = "Complicated", LastName = "Assignment" };// Instantiate an Employee object with type “int” as its generic parameter. 
+            Employee<int> employee7 = new Employee<int>() { FirstName = "Complicated", LastName = "Assignment" };// Instantiate an Employee object with type “int” as its generic parameter. 
             employee7.Things = new List<int> { 228, 59, 41, 4151 }; //Assign a list of integers as the property value of Things.
 
             Console.WriteLine("Employee 1 Things:"); 
             foreach (string thing in employee6.Things) //loop to print employee 6 Things
             {
                 Console.WriteLine(thing);
+                Console.ReadLine();
             }
 
             Console.WriteLine("\nEmployee 2 Things:");
             foreach (int thing in employee7.Things) //loop to print employee 7 Things
             {
                 Console.WriteLine(thing);
+                Console.ReadLine();
             }
         }
     }
