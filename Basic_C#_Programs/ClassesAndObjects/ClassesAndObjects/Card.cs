@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Card
+    public struct Card //card can be struct, cause it is not going to be changed
     {
 
-        public Card() //constructor
-        {
-            Suit = "Spades";
-            Face = "Two";
-        }
         public Suit Suit { get; set; }
         public Face Face { get; set; }
     }
