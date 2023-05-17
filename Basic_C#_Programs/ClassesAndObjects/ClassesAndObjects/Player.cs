@@ -21,6 +21,22 @@ namespace TwentyOne
         public bool isActivelyPlaying { get; set; }
         public bool Stay {get;set;}
 
+        public bool Bet (int amount)
+        {
+            if(Balance - amount < 0)
+            {
+                Console.WriteLine("You don't have enough money to make this bet.");
+                return false;
+            }
+
+            else 
+            {
+                Balance -=  amount;
+                return true;
+
+            }
+        }
+
         public static Game operator +(Game game, Player player) //to overload operator in the way you can simply add a new player
         {
             game.Players.Add(player);

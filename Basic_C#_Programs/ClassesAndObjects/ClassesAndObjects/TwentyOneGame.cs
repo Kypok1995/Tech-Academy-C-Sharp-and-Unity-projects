@@ -18,6 +18,21 @@ namespace TwentyOne
                 player.Hand = new List<Card>();
                 player.Stay = false;
             }
+            Dealer.Hand = new List<Card>();
+            Dealer.Stay = false;
+            Dealer.Deck = new Deck();
+            Comsole.WriteLine("Place your bet!");
+
+            foreach(Player player in Players)
+            {
+                int bet = Convert.ToInt32(Console.ReadLine());
+                bool successFullyBet =  player.Bet(bet);
+                if (!successFullyBet)
+                {
+                    return;
+                }
+                Bets[player] = bet;
+            }
         }
 
         public override void ListPlayers() //override virtual method from Game class

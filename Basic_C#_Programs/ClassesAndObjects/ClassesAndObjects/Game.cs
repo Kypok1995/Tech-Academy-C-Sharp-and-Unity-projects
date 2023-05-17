@@ -11,6 +11,7 @@ namespace TwentyOne
         public List<Player> Players { get; set; }
         public string Name { get; set; }
         public abstract void Play(); //abstract method with no implementation
+        public Dictionary<Player, int> Bets {get;set;}
 
         
 
@@ -21,5 +22,7 @@ namespace TwentyOne
                 Console.WriteLine(player);
             }
         }
+
+
     }
 }
