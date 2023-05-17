@@ -12,7 +12,7 @@ namespace TwentyOne
         public string Name { get; set; }
         public abstract void Play(); //abstract method with no implementation
 
-        public string Dealer { get; set;  }
+        
 
         public virtual void ListPlayers() //basic virtual method with some implementation
         {

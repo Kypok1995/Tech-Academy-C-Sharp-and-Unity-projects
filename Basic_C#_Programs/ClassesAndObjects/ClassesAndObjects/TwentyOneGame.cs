@@ -8,9 +8,16 @@ namespace TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
+        public TwentyOneDealer Dealer {get;set;}
+
         public override void Play() //abstract method from abstract class with implementation in inherited class. Inherited class must have implementation for abstract method
         {
-            throw new NotImplementedException();
+            Dealer = new TwentyOneDealer();
+            foreach(Player player in Players)
+            {
+                player.Hand = new List<Card>();
+                player.Stay = false;
+            }
         }
 
         public override void ListPlayers() //override virtual method from Game class
