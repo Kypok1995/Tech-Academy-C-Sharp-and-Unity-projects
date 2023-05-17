@@ -12,8 +12,8 @@ namespace TwentyOne
 
         public override void Play() //abstract method from abstract class with implementation in inherited class. Inherited class must have implementation for abstract method
         {
-            Dealer = new TwentyOneDealer();
-            foreach(Player player in Players)
+            Dealer = new TwentyOneDealer(); //instantiate new dealer
+            foreach(Player player in Players) //loop to give all players
             {
                 player.Hand = new List<Card>();
                 player.Stay = false;
@@ -32,6 +32,19 @@ namespace TwentyOne
                     return;
                 }
                 Bets[player] = bet;
+            }
+            for (int i = 0; i<2; i++)
+            {
+                Console.WriteLine("Dealing...");
+                foreach(Player player in Player)
+                {
+                    Console.Write("{0}: ", player.Name);
+                    Dealer.Deal(player.Hand);
+                    if(i ==1)
+                    {
+                        
+                    }
+                }
             }
         }
 
