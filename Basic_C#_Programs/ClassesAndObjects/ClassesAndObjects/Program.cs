@@ -29,7 +29,10 @@ namespace TwentyOne
                 {
                     game.Play();
                 }
+                game -= player;
+                Console.WriteLine("Thanks for playing my Black Jack game!");
             }
+            Console.WriteLine("All right, let's play a game next time!");
         }
 
     }
