@@ -8,7 +8,7 @@ namespace TwentyOne
 {
     public class TwentyOneRules
     {
-     private static Dictionary <Face, int> _cardValues = new Dictionary<Face, int>()
+     private static Dictionary <Face, int> _cardValues = new Dictionary<Face, int>() //dictionary to hold valuers of all cards
      {
         [Face.Two] = 2,
         [Face.Three] = 3,
@@ -25,17 +25,30 @@ namespace TwentyOne
         [Face.Ace] = 1
      };
 
-     public static int[] GetAllPossibleValues(List<Card>Hand)
+     private static int[] GetAllPossibleValues(List<Card>Hand)
      {
-        int aceCount = Hand.Count(x => x.Face == Face.Ace);
-        int[] results = new int[aceCount + 1];
-        int value = Hand.Sum(x => _cardValues[x.Face]);
-        results[0] = value;
-        if (results.Length ==1) return results;
+        int aceCount = Hand.Count(x => x.Face == Face.Ace); //lambda expression to count a number of aces
+        int[] results = new int[aceCount + 1]; //total length of results array will be amount of aces +1 
+        int value = Hand.Sum(x => _cardValues[x.Face]); //counting first possible result with aces as 1
+        results[0] = value; //putting first result into first place at array
+        if (results.Length ==1) return results; //if there no aces, results returned as only one possible option
+
+        for (int i = 1; i < result.Length; i++)
+        {
+         value = value + (i*10); //to add amount of aces to a combined value
+         results[i] = value;
+        }
+
+        return results;
      }
      
      public static bool CheckForBlackJack(List<Card> Hand)
      {
+      int [] possibleValues = GetAllPossibleValues(Hand);//to put a values into array
+      int value = possibleValues.Max(); //to get a biggest possible value
+      if(value == 21) return true; //it is black jack
+      else return false;
+
 
      }
     }
