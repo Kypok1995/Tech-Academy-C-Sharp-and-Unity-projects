@@ -67,6 +67,51 @@ namespace TwentyOne
                     }
                 }
             }
+            foreach(Player player in Players)
+            {
+                while(!player.Stay)
+                {
+                    Console.WriteLine("Your cards are:  ");
+                    foreach(Card card in Player.Hand)
+                    {
+                        Console.Write(" {0}"card.ToString());
+                    }
+                    Console.WriteLine("\n\nHit or stay?");
+                    string answer = Console.ReadLine().ToLower();
+
+                    if (asnwer == "stay")
+                    {
+                        play.Stay = true;
+                        break;
+                    }
+
+                    else if(anser == "hit")
+                    {
+                        Dealer.Deal(player.Hand);
+                    }
+                bool busted = TwentyOneRules.isBusted(player.Hand);
+                if(busted)
+                {
+                    Dealer.Balance += Bets[player];
+                    Console.WriteLine("{0} Busted! You loose your bet of {1}. Your remaining balance is {2}", player.Name, Bets[player], player.Balance);
+                    Console.WriteLine("Do you want to play again?");
+                    string answer = Console.ReadLine().ToLower();
+                    if(anser == "yes" || anser == "yeh" || anser == "y" || anser == "ya" ||)
+                    {
+                        player.isActivelyPlaying = true;
+                    }
+
+                    else 
+                    {
+                        player.isActivelyPlaying = false;
+                    }
+                }
+
+                }
+            }
+
+            Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
+            Dealer.Stay = TwentyOneRules 
         }
 
         public override void ListPlayers() //override virtual method from Game class

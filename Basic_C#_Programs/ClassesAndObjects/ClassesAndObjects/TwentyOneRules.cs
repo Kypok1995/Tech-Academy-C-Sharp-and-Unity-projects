@@ -48,8 +48,20 @@ namespace TwentyOne
       int value = possibleValues.Max(); //to get a biggest possible value
       if(value == 21) return true; //it is black jack
       else return false;
-
-
      }
-    }
+
+    public static bool IsBusted(List<Card> Hand)
+      {
+      int value = GetAllPossibleValues(Hand).Min();
+      if (value > 21) return true;
+      else return false;
+      }
+
+   public static bool ShouldDealerStay(List<Card> Hand)\
+   {
+      
+   }
+
+   }
+
 }
