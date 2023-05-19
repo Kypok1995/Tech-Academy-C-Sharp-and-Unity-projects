@@ -25,7 +25,7 @@ namespace TwentyOne
                 game += player; // add a player to the game
                 player.isActivelyPlaying = true; //set property of actively  playing to true
 
-                while(player.isActivelyPlaying $$ player.Balance >0) //game can be played while player is active and have some balance
+                while(player.isActivelyPlaying && player.Balance >0) //game can be played while player is active and have some balance
                 {
                     game.Play();
                 }

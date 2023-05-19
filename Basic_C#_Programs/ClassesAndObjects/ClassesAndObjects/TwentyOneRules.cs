@@ -33,7 +33,7 @@ namespace TwentyOne
         results[0] = value; //putting first result into first place at array
         if (results.Length ==1) return results; //if there no aces, results returned as only one possible option
 
-        for (int i = 1; i < result.Length; i++)
+        for (int i = 1; i < results.Length; i++)
         {
          value = value + (i*10); //to add amount of aces to a combined value
          results[i] = value;
@@ -57,10 +57,10 @@ namespace TwentyOne
       else return false;
       }
 
-   public static bool ShouldDealerStay(List<Card> Hand)\
-   {
+   public static bool ShouldDealerStay(List<Card> Hand)
+        {
       
-   }
+       }
 
    }
 
