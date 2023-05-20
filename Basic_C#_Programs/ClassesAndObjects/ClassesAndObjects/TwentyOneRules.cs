@@ -59,9 +59,30 @@ namespace TwentyOne
 
    public static bool ShouldDealerStay(List<Card> Hand)
         {
-      
+            int[] possibleHandValues = GetAllPossibleValues(Hand);
+            foreach(int value in possibleHandValues)
+            {
+                if (value > 16 && value < 21)
+                {
+                    return true;
+                }
+            }
+            return false;
        }
 
-   }
+        public static bool? CompareHands(List<Card> PlayerHand, List<Card> DealerHand)
+        {
+            int[] playerResults = GetAllPossibleValues(PlayerHand);
+            int[] dealerResults = GetAllPossibleValues(DealerHand);
+
+            int playerScore = playerResults.Where(x => x < 22).Max();
+            int dealerScore = dealerResults.Where(x => x < 22).Max();
+
+            if (playerScore > dealerScore) return true;
+            else if (dealerScore > playerScore) return false;
+            else return null;
+        }
+
+  }
 
 }

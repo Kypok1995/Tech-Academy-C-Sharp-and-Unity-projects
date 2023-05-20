@@ -8,7 +8,7 @@ namespace TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
-        public TwentyOneDealer Dealer {get;set;}
+        public TwentyOneDealer Dealer { get; set; }
 
         public override void Play() //abstract method from abstract class with implementation in inherited class. Inherited class must have implementation for abstract method
         {
@@ -21,6 +21,7 @@ namespace TwentyOne
             Dealer.Hand = new List<Card>(); //get a dealer a card
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
+            Dealer.Deck.Shuffle();
             Console.WriteLine("Place your bet!");
 
             foreach (Player player in Players) //to make all players make their bets
@@ -64,6 +65,7 @@ namespace TwentyOne
                         {
                             Dealer.Balance += entry.Value;
                         }
+                        return;
                     }
                 }
             }
@@ -95,15 +97,17 @@ namespace TwentyOne
                         Dealer.Balance += Bets[player];
                         Console.WriteLine("{0} Busted! You loose your bet of {1}. Your remaining balance is {2}", player.Name, Bets[player], player.Balance);
                         Console.WriteLine("Do you want to play again?");
-                        string answer = Console.ReadLine().ToLower();
-                        if (answer == "yes" || answer == "yeh" || answer == "y" || answer == "ya" ||)
+                        answer = Console.ReadLine().ToLower();
+                        if (answer == "yes" || answer == "yeh" || answer == "y" || answer == "ya")
                         {
                             player.isActivelyPlaying = true;
+                            return;
                         }
 
                         else
                         {
                             player.isActivelyPlaying = false;
+                            return;
                         }
                     }
 
@@ -111,8 +115,61 @@ namespace TwentyOne
             }
 
             Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
-            Dealer.Stay = TwentyOneRules
-        };
+            Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+
+            while (!Dealer.Stay && !Dealer.isBusted)
+            {
+                Console.WriteLine("Dealer is hitting...");
+                Dealer.Deal(Dealer.Hand);
+                Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
+                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+            }
+            if (Dealer.Stay)
+            {
+                Console.WriteLine("Dealer is staying");
+            }
+            if (Dealer.isBusted)
+            {
+                Console.WriteLine("Dealer is busted!");
+                foreach (KeyValuePair<Player, int> entry in Bets)
+                {
+                    Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
+                    Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2); //to get all names of players who won and give them their bet x2
+                    Dealer.Balance -= entry.Value; //take of a bet from dealer
+                }
+                return;
+            }
+            foreach (Player player in Players)
+            {
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
+                if (playerWon == null)
+                {
+                    Console.WriteLine("Push! No one wins!");
+                    player.Balance += Bets[player];
+                }
+                else if (playerWon == true)
+                {
+                    Console.WriteLine("{0} won {1}!", player.Name, Bets[player]);
+                    player.Balance += (Bets[player] * 2);
+                    Dealer.Balance -= Bets[player];
+                }
+                else
+                {
+                    Console.WriteLine("Dealer wins {0}", Bets[player]);
+                    Dealer.Balance += Bets[player];
+                }
+                Console.WriteLine("Play again?");
+                string answer = Console.ReadLine().ToLower();
+                if (answer == "yes" || answer == "yeah")
+                {
+                    player.isActivelyPlaying = true;
+                }
+                else
+                {
+                    player.isActivelyPlaying = false;
+                }
+            }
+        }
 
         public override void ListPlayers() //override virtual method from Game class
         {
