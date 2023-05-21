@@ -28,11 +28,11 @@ namespace TwentyOne
             {
                 int bet = Convert.ToInt32(Console.ReadLine());
                 bool successFullyBet = player.Bet(bet); //use a bet method to check if player has enough money to make a bet
-                if (!successFullyBet)
+                if (!successFullyBet) //if player have not enough money for his bet
                 {
                     return;
                 }
-                Bets[player] = bet;
+                Bets[player] = bet;//store players bet in the bets dictionary
             }
             for (int i = 0; i < 2; i++)
             {
@@ -44,7 +44,7 @@ namespace TwentyOne
                     if (i == 1)
                     {
                         bool BlackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
-                        if (BlackJack)// if player have a blackjack
+                        if (BlackJack)// if player have a blackjack, blackjack checks immidiately after dealing a cards
                         {
                             Console.WriteLine("BlackJack!!! {0} wins {1}", player.Name, Bets[player]);
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]); //to return bet to the player, plus give him his reward
@@ -71,9 +71,9 @@ namespace TwentyOne
             }
             foreach (Player player in Players)
             {
-                while (!player.Stay)
+                while (!player.Stay)//loop until player not stay
                 {
-                    Console.WriteLine("Your cards are:  ");
+                    Console.WriteLine("Your cards are:  ");//to ouput user's cards 
                     foreach (Card card in player.Hand)
                     {
                         Console.Write(" {0}", card.ToString());
@@ -81,24 +81,24 @@ namespace TwentyOne
                     Console.WriteLine("\n\nHit or stay?");
                     string answer = Console.ReadLine().ToLower();
 
-                    if (answer == "stay")
+                    if (answer == "stay")//if players stay - break a loop
                     {
                         player.Stay = true;
                         break;
                     }
 
-                    else if (answer == "hit")
+                    else if (answer == "hit") //deal one more card if member want to hit
                     {
                         Dealer.Deal(player.Hand);
                     }
-                    bool busted = TwentyOneRules.IsBusted(player.Hand);
-                    if (busted)
+                    bool busted = TwentyOneRules.IsBusted(player.Hand);//check if there are conditons for user to be busted
+                    if (busted)//if busted condition met 
                     {
-                        Dealer.Balance += Bets[player];
+                        Dealer.Balance += Bets[player]; //dealer receive a player's bet
                         Console.WriteLine("{0} Busted! You loose your bet of {1}. Your remaining balance is {2}", player.Name, Bets[player], player.Balance);
                         Console.WriteLine("Do you want to play again?");
                         answer = Console.ReadLine().ToLower();
-                        if (answer == "yes" || answer == "yeh" || answer == "y" || answer == "ya")
+                        if (answer == "yes" || answer == "yeh" || answer == "y" || answer == "ya")//if user want to play again after beign busted
                         {
                             player.isActivelyPlaying = true;
                             return;
@@ -114,21 +114,21 @@ namespace TwentyOne
                 }
             }
 
-            Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
+            Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);//check if dealer is busted
             Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
 
-            while (!Dealer.Stay && !Dealer.isBusted)
+            while (!Dealer.Stay && !Dealer.isBusted)//loops until dealer not busted and not staying
             {
                 Console.WriteLine("Dealer is hitting...");
-                Dealer.Deal(Dealer.Hand);
-                Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
-                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+                Dealer.Deal(Dealer.Hand); //add more card to dealer hand
+                Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand); //check for busted condition
+                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand); //check for stay condition
             }
             if (Dealer.Stay)
             {
                 Console.WriteLine("Dealer is staying");
             }
-            if (Dealer.isBusted)
+            if (Dealer.isBusted)//if dealer busted
             {
                 Console.WriteLine("Dealer is busted!");
                 foreach (KeyValuePair<Player, int> entry in Bets)
@@ -141,8 +141,8 @@ namespace TwentyOne
             }
             foreach (Player player in Players)
             {
-                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
-                if (playerWon == null)
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);//create a bool with nullable value a use a method to compare hands of dealer and user
+                if (playerWon == null) //if value null -  it is a push
                 {
                     Console.WriteLine("Push! No one wins!");
                     player.Balance += Bets[player];

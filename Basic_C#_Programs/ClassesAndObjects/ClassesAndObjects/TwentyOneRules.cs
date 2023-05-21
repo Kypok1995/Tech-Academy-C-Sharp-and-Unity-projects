@@ -57,7 +57,7 @@ namespace TwentyOne
       else return false;
       }
 
-   public static bool ShouldDealerStay(List<Card> Hand)
+   public static bool ShouldDealerStay(List<Card> Hand) //check if dealer should stay or hit. If his score is between 16 and 21 he stays, overwise he hits
         {
             int[] possibleHandValues = GetAllPossibleValues(Hand);
             foreach(int value in possibleHandValues)
@@ -72,10 +72,10 @@ namespace TwentyOne
 
         public static bool? CompareHands(List<Card> PlayerHand, List<Card> DealerHand)
         {
-            int[] playerResults = GetAllPossibleValues(PlayerHand);
-            int[] dealerResults = GetAllPossibleValues(DealerHand);
+            int[] playerResults = GetAllPossibleValues(PlayerHand); //get all possible values of users hand into array 
+            int[] dealerResults = GetAllPossibleValues(DealerHand);// get all possible values of dealers hand into array
 
-            int playerScore = playerResults.Where(x => x < 22).Max();
+            int playerScore = playerResults.Where(x => x < 22).Max(); //choose 
             int dealerScore = dealerResults.Where(x => x < 22).Max();
 
             if (playerScore > dealerScore) return true;

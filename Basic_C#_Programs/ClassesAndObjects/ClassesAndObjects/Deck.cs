@@ -25,7 +25,7 @@ namespace TwentyOne
         }
         public List<Card> Cards { get; set; }
 
-        public void Shuffle(int times = 1) //public method with deck return type and deck parameter
+        public void Shuffle(int times = 1) //public method to shuffle deck of cards.
         {
             
             for (int i = 0; i < times; i++)

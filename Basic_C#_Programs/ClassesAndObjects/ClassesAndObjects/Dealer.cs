@@ -12,7 +12,7 @@ namespace TwentyOne
         public Deck Deck { get; set; }
         public int Balance { get; set; }
 
-        public void Deal(List<Card> Hand)
+        public void Deal(List<Card> Hand)//method to deal a card by dealer
         {
             Hand.Add(Deck.Cards.First());
             Console.WriteLine(Deck.Cards.First().ToString() + "\n");
