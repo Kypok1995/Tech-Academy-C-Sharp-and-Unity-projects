@@ -80,7 +80,7 @@ namespace TwentyOne
 
             if (playerScore > dealerScore) return true;
             else if (dealerScore > playerScore) return false;
-            else return null;
+            else return null;//third option to return null, if player and dealer have equal score
         }
 
   }
