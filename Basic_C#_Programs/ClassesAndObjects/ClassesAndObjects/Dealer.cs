@@ -18,9 +18,10 @@ namespace TwentyOne
             Hand.Add(Deck.Cards.First());
             string card = String.Format(Deck.Cards.First().ToString() + "\n");
             Console.WriteLine(card);
-            using(SteamWriter file = new SteamWriter(@"C/Users/", true)); //for logging every card dealed 
+            using(StreamWriter file = new StreamWriter(@"C:\Users\Andrei\Documents\file.txt", true)) //for logging every card dealed 
             {
-                file.WriteLine(card);
+                file.WriteLine(DateTime.Now);//to log a time of dealing a card
+                file.WriteLine(card);//log a card itself
             }
             Deck.Cards.RemoveAt(0);
         }
