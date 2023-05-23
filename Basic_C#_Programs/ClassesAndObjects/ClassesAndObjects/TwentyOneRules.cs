@@ -52,9 +52,9 @@ namespace TwentyOne
 
     public static bool IsBusted(List<Card> Hand)
       {
-      int value = GetAllPossibleValues(Hand).Min();
-      if (value > 21) return true;
-      else return false;
+      int value = GetAllPossibleValues(Hand).Min();//check minimum value from the hand
+      if (value > 21) return true;//if value more than 21 - it is busted, return true
+      else return false; //if not return false
       }
 
    public static bool ShouldDealerStay(List<Card> Hand) //check if dealer should stay or hit. If his score is between 16 and 21 he stays, overwise he hits
@@ -62,7 +62,7 @@ namespace TwentyOne
             int[] possibleHandValues = GetAllPossibleValues(Hand);
             foreach(int value in possibleHandValues)
             {
-                if (value > 16 && value < 21)
+                if (value > 16 && value < 21) //if dealers hand between 16 and 21 - dealer stays
                 {
                     return true;
                 }
