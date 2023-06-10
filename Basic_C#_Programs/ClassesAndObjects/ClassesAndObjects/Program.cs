@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+
 
 namespace TwentyOne
 {
@@ -12,6 +8,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Welcome to Black Jack game! Please enter your name");
             string playerName = Console.ReadLine();
             Console.WriteLine("How much money you bring today to play?");
