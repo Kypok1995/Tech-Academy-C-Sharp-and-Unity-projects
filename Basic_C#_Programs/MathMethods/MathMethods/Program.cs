@@ -17,7 +17,7 @@ namespace MathMethods
             int number = Convert.ToInt32(Console.ReadLine());
 
             int resultOne = test.Power(number);
-            int resulTwo = test.Remainder(number);
+            int resultTwo = test.Remainder(number);
             int resultThree = test.factorial(number);
 
             Console.WriteLine("Result of raising a number to the third power is " + resultOne +
