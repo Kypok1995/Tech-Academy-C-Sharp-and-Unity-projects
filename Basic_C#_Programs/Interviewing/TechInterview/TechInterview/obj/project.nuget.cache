@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8SenwGFU6VEB5IZGPtoZUGUNPRVRrbMGSYAejkXz/bxVAW21yCKDPg8IMoJzo2snOVoGWVLegfab6wUHHJSmJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\Basic_C#_Programs\\Interviewing\\TechInterview\\TechInterview\\TechInterview.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

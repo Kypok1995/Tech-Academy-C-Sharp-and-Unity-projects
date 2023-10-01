@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\bin\Debug\net7.0\TechInterview.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\bin\Debug\net7.0\TechInterview.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\bin\Debug\net7.0\TechInterview.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\bin\Debug\net7.0\TechInterview.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\bin\Debug\net7.0\TechInterview.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\refint\TechInterview.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\TechInterview.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Basic_C#_Programs\Interviewing\TechInterview\TechInterview\obj\Debug\net7.0\ref\TechInterview.dll
