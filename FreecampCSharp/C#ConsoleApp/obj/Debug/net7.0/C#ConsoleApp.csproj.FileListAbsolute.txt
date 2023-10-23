@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\bin\Debug\net7.0\C#ConsoleApp.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\bin\Debug\net7.0\C#ConsoleApp.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\bin\Debug\net7.0\C#ConsoleApp.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\bin\Debug\net7.0\C#ConsoleApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\bin\Debug\net7.0\C#ConsoleApp.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\refint\C#ConsoleApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\C#ConsoleApp.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\C#ConsoleApp\obj\Debug\net7.0\ref\C#ConsoleApp.dll

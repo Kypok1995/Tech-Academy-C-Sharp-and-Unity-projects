@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Uuz/5kHBKgOTCh50XmV61MfQmtVnioxK4Eb1WRbJC6z86vVqHA7mxJXUEhPjKmNSbtnh0AoNl8+7sNmrtrPZdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\C#ConsoleApp\\C#ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
