@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 
+
 int currentAssignments = 5; //amount of assignments
 
 int[] sophiaScores = new int[] { 90, 86, 87, 98, 100, 94, 90 }; //arrays with student scores for all assignments
@@ -17,11 +18,14 @@ int[] studentScores = new int[10]; //array to hold up to 10 scores for exact stu
 string currentStudentLetterGrade = ""; //blank variable for student grade letter
 
 
-Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Student\t\tExam Score\tOverall Grade \t\tExtra Credit\n");
 foreach (string studentName in studentNames) {
     string currentStudent = studentName;//variable to hold current student name
-    int sumAssignmentScores = 0;
+    decimal sumAssignmentScores = 0;
+    decimal totalExamScore;
     decimal currentStudentGrade;
+    decimal totalExtraCredit;
+    decimal additionalPoints;
 
     if (currentStudent == "Sophia")
     {
@@ -50,20 +54,28 @@ foreach (string studentName in studentNames) {
 
     // initialize/reset a counter for the number of assignments
     int gradedAssignments = 0;
-
+    
+    decimal examScore = 0;
+    decimal extraCredit = 0;
+    
     foreach (int score in studentScores)//calculate scores
     {
         gradedAssignments++;
-        if (gradedAssignments <= currentAssignments)
+        if (gradedAssignments <= currentAssignments){
+            examScore+=score; //to calculate only exam scores
             // add the exam score to the sum
-            sumAssignmentScores += score;
-        else
+            sumAssignmentScores += score;}
+        else{
             // add the extra credit points to the sum - bonus points equal to 10% of an exam score
-            sumAssignmentScores += score / 10;
+            extraCredit+=score; //to calculate scores for extra credits
+            sumAssignmentScores += (decimal)score / 10;
+        }
 
     }
-
-    currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;
+    totalExtraCredit = (decimal)extraCredit / (gradedAssignments - currentAssignments); //to calculate extra credit point earned
+    totalExamScore = (decimal)examScore/currentAssignments;//to calculate exam score without additional credits
+    currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;//to calculate overall GPA of student
+    additionalPoints = currentStudentGrade - totalExamScore;
 
 
 
@@ -105,10 +117,9 @@ foreach (string studentName in studentNames) {
 
 
 
-    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t{totalExamScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t\t{totalExtraCredit} ({additionalPoints} pts)");
 }
 
 
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
-
