@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\bin\Debug\net7.0\ConsoleAppArrays.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\bin\Debug\net7.0\ConsoleAppArrays.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\bin\Debug\net7.0\ConsoleAppArrays.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\bin\Debug\net7.0\ConsoleAppArrays.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\bin\Debug\net7.0\ConsoleAppArrays.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\refint\ConsoleAppArrays.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ConsoleAppArrays.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ConsoleAppArrays\obj\Debug\net7.0\ref\ConsoleAppArrays.dll
