@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wLU8sPZM4gLn34sO8Z7JHBoRkWryLfc/TS9+BZOksV6q/G+vWlqdw7T9T1KI5XNX628aIY0ltkgeEBFF0xFS0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\BoolExpression\\BoolExpression.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

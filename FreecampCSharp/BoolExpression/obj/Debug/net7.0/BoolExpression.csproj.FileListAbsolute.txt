@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\bin\Debug\net7.0\BoolExpression.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\bin\Debug\net7.0\BoolExpression.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\bin\Debug\net7.0\BoolExpression.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\bin\Debug\net7.0\BoolExpression.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\bin\Debug\net7.0\BoolExpression.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\refint\BoolExpression.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\BoolExpression.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\BoolExpression\obj\Debug\net7.0\ref\BoolExpression.dll
