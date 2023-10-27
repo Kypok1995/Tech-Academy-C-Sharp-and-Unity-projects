@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZPY0JM/y7gnaag/xWuARA+iv6q0lKbkLGpEikswYcs8RVJOvsm/xQ0fPXL7AP6TM1wxCcFVPzQ/FmuMFRJfiuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\UserInputApp\\UserInputApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
