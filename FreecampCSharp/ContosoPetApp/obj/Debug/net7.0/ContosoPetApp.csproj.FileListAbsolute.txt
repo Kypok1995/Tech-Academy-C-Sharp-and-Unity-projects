@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\bin\Debug\net7.0\ContosoPetApp.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\bin\Debug\net7.0\ContosoPetApp.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\bin\Debug\net7.0\ContosoPetApp.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\bin\Debug\net7.0\ContosoPetApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\bin\Debug\net7.0\ContosoPetApp.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\refint\ContosoPetApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ContosoPetApp.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\ContosoPetApp\obj\Debug\net7.0\ref\ContosoPetApp.dll

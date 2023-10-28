@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4/ZAHZEfcdAcaX61wnYBuO2LXx/EdLGlmfa6uOaQjZJBe9wC07ZH4b+XU6w/Dy/y5V7/9qKtchKnonzpUkrjVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\ContosoPetApp\\ContosoPetApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
