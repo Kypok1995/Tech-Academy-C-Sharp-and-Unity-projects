@@ -289,19 +289,19 @@ do
             // Ensure animal ages and physical descriptions are complete
             bool isComplete = false;
             
-            do{
+            do{// do loop until all ages and descriptions are assigned
             for (int i = 0; i < maxPets; i++)
             {
-                if (ourAnimals[i, 0] != "ID #: ")
+                if (ourAnimals[i, 0] != "ID #: ") //if animal exist in array
                 {
                     Console.WriteLine();
-                    for (int j = 0; j < 6; j++)
+                    for (int j = 0; j < 6; j++) //inner loop for characteristics of animals
                     {
-                        if ((ourAnimals[i, 2] == "Age: ") || (ourAnimals[i, 2] == "Age: ?"))
+                        if ((ourAnimals[i, 2] == "Age: ") || (ourAnimals[i, 2] == "Age: ?"))//if there are no assigned age
                         {
                             Console.WriteLine($"Animal with {ourAnimals[i,0]} doesn't have valid age information. Please enter a pet's age:");
                             readResult = Console.ReadLine();
-                            if(int.TryParse(readResult, out petAge))
+                            if(int.TryParse(readResult, out petAge)) //if users input is a valid integer
                             {
                                 ourAnimals[i, 2] = "Age: " + readResult; // Update the age value
                                 isComplete = true;
@@ -317,8 +317,9 @@ do
                         {   isComplete = false;
                             Console.WriteLine($"Animal with {ourAnimals[i, 0]} doesn't have a physical description. Please provide a physical description (size, color, breed, gender, weight, housebroken)");
                             readResult = Console.ReadLine();
-                            if(readResult != null && readResult != ""){
-                             ourAnimals[i, 4] = "Physical description: " + readResult;
+                            if(!string.IsNullOrWhiteSpace(readResult))//checks for valid input from user
+                            {
+                            ourAnimals[i, 4] = "Physical description: " + readResult;
                             isComplete = true;   
                             }
 
@@ -327,7 +328,13 @@ do
                         {
                             Console.WriteLine(ourAnimals[i, j].ToString());
                         }
+
                         }
+                    }
+                    // Check if the required entries are valid now
+                    if (ourAnimals[i, 2] == "Age: " || ourAnimals[i, 4] == "Physical description: ")
+                    {
+                        isComplete = false; // Mark as incomplete if any of the required entries are still missing
                     }
                 }
             }
@@ -336,35 +343,37 @@ do
             readResult = Console.ReadLine();
             break;
 
-        case "4":
+        case "4": //option to add animal nickname or personality details
 do
         {
             isComplete = true; // Assume the loop will complete unless we find invalid inputs.
+
             
-            for (int i = 0; i < maxPets; i++)
+            for (int i = 0; i < maxPets; i++) //loop for all animals
             {
-                if (ourAnimals[i, 0] != "ID #: ")
+                if (ourAnimals[i, 0] != "ID #: ") //if animal got existing ID
                 {
                     Console.WriteLine();
                     
-                    for (int j = 0; j < 6; j++)
+                    for (int j = 0; j < 6; j++) // loop for animal characteristics
                     {
-                        if (j == 3 && ourAnimals[i, 3] == "Nickname: ")
+                        if (ourAnimals[i, 3] == "Nickname: ") //if nickname blank
                         {
                             Console.WriteLine($"Animal with {ourAnimals[i, 0]} doesn't have a valid nickname. Please enter a pet's nickname:");
                             readResult = Console.ReadLine();
                             
-                            if (!string.IsNullOrEmpty(readResult))
+                            if (!string.IsNullOrWhiteSpace(readResult)) //checks if result is not empty or null
                             {
-                                ourAnimals[i, 3] = "Nickname: " + readResult;
+                                ourAnimals[i, 3] = "Nickname: " + readResult;//assign a user input to nicname variable
                             }
+
                         }
-                        else if (j == 5 && ourAnimals[i, 5] == "Personality: ")
+                        else if (ourAnimals[i, 5] == "Personality: ")
                         {
                             Console.WriteLine($"Animal with {ourAnimals[i, 0]} doesn't have a personality description. Enter a personality description (likes or dislikes, tricks, energy level):");
                             readResult = Console.ReadLine();
                             
-                            if (!string.IsNullOrEmpty(readResult))
+                            if (!string.IsNullOrWhiteSpace(readResult))
                             {
                                 ourAnimals[i, 5] = "Personality: " + readResult;
                             }
