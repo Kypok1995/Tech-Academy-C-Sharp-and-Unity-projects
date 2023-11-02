@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UdrCG94E+o9bsbowmPfbH3du30siNbQ0VQnKlwPMkFnpq2Qh8oDl9FA/M+by87p20DuRSyUCzJfNkhUtOgfkcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\DataTypers\\DataTypers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

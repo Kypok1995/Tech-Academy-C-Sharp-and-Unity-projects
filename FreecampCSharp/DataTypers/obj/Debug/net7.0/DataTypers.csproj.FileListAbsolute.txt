@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\bin\Debug\net7.0\DataTypers.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\bin\Debug\net7.0\DataTypers.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\bin\Debug\net7.0\DataTypers.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\bin\Debug\net7.0\DataTypers.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\bin\Debug\net7.0\DataTypers.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\refint\DataTypers.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\DataTypers.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\DataTypers\obj\Debug\net7.0\ref\DataTypers.dll
