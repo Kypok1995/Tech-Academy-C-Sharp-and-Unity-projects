@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\bin\Debug\net7.0\FprmatAlphanumericData.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\bin\Debug\net7.0\FprmatAlphanumericData.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\bin\Debug\net7.0\FprmatAlphanumericData.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\bin\Debug\net7.0\FprmatAlphanumericData.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\bin\Debug\net7.0\FprmatAlphanumericData.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\refint\FprmatAlphanumericData.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\FprmatAlphanumericData.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\FprmatAlphanumericData\obj\Debug\net7.0\ref\FprmatAlphanumericData.dll

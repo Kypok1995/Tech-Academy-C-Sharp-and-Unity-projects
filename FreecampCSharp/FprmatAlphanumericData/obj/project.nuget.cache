@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JwifB7Tukesz8Xb/zUaWPgqWvjNYzDBW7ZU1oqzU2diNgEJmVclV0jqMwjxLzUa/uk6bKQunKecSkHp0tLOb+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\FprmatAlphanumericData\\FprmatAlphanumericData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
