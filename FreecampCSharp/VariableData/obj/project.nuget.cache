@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MVo4N7m74Znq+sWZW9gJRqBOZLX+52l7DYl+nS6jl4AdlOVFzurcpq5n7MbmwVQT8WuLuOVpjwxZlilQ0R/aJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\VariableData\\VariableData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
