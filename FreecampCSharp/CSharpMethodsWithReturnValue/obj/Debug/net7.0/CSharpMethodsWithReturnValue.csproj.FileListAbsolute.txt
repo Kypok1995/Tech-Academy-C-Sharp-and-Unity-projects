@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\bin\Debug\net7.0\CSharpMethodsWithReturnValue.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\bin\Debug\net7.0\CSharpMethodsWithReturnValue.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\bin\Debug\net7.0\CSharpMethodsWithReturnValue.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\bin\Debug\net7.0\CSharpMethodsWithReturnValue.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\bin\Debug\net7.0\CSharpMethodsWithReturnValue.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\refint\CSharpMethodsWithReturnValue.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\CSharpMethodsWithReturnValue.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsWithReturnValue\obj\Debug\net7.0\ref\CSharpMethodsWithReturnValue.dll
