@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\bin\Debug\net7.0\CSharpMethodsApp.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\bin\Debug\net7.0\CSharpMethodsApp.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\bin\Debug\net7.0\CSharpMethodsApp.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\bin\Debug\net7.0\CSharpMethodsApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\bin\Debug\net7.0\CSharpMethodsApp.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\refint\CSharpMethodsApp.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\CSharpMethodsApp.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\CSharpMethodsApp\obj\Debug\net7.0\ref\CSharpMethodsApp.dll
