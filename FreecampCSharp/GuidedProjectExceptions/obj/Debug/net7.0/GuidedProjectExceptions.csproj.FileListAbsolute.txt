@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\bin\Debug\net7.0\GuidedProjectExceptions.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\bin\Debug\net7.0\GuidedProjectExceptions.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\bin\Debug\net7.0\GuidedProjectExceptions.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\bin\Debug\net7.0\GuidedProjectExceptions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\bin\Debug\net7.0\GuidedProjectExceptions.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\refint\GuidedProjectExceptions.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\GuidedProjectExceptions.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GuidedProjectExceptions\obj\Debug\net7.0\ref\GuidedProjectExceptions.dll
