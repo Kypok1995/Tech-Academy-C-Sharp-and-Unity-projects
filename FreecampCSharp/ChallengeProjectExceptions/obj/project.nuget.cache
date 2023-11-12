@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uM8LCY3rRIiq4DUMwxTUisvnNsVscVW3yRDxH1+VA+MNjr4Nd50AoSyQ5fDrK9j/2JdHyy/IrWHCif5c2rajdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\ChallengeProjectExceptions\\ChallengeProjectExceptions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
