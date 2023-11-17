@@ -3,11 +3,27 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
+// Configure services
+builder.Services.AddControllersWithViews();
 app.ConfigureMiddleware();
 app.RegisterEndpoints(); 
+app.UseStaticFiles();
+app.UseRouting();
+
+// Configure the HTTP request pipeline
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+    app.UseStatusCodePagesWithReExecute();
+}
+else
+{
+    // Other error handling middleware for production.
+    app.UseExceptionHandler("/Home/Error");
+    app.UseStatusCodePagesWithReExecute("/Home/Error/{0}");
+}
 
 app.Run();
-
 
 
 public static partial class ServiceInitializer// class to initialize a services
