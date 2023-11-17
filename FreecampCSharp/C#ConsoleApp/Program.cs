@@ -64,3 +64,13 @@ else if(daysUntilExpiration ==1){
 else if(daysUntilExpiration ==0){
     Console.WriteLine("Your subscription has expired.");
 }
+
+
+string [] fraudulentOrders = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"}; //code for arrays assignment
+
+foreach (string order in fraudulentOrders){
+    
+    if(order.StartsWith("B")){
+        Console.WriteLine($"Possibly fraudulent order: {order}");
+    }
+}
