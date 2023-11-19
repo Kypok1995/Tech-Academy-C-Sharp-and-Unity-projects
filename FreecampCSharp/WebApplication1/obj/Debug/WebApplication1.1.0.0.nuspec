@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebApplication1</id>
+    <version>1.0.0</version>
+    <authors>WebApplication1</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="878df807d53db7e9ac3dd99c03fa39ad700f5cb9" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net7.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net7.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\WebApplication1\bin\Debug\net7.0\WebApplication1.runtimeconfig.json" target="lib\net7.0\WebApplication1.runtimeconfig.json" />
+    <file src="C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\WebApplication1\bin\Debug\net7.0\WebApplication1.dll" target="lib\net7.0\WebApplication1.dll" />
+    <file src="C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\WebApplication1\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\WebApplication1\appsettings.Development.json" target="contentFiles\any\net7.0\appsettings.Development.json" />
+    <file src="C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\WebApplication1\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\WebApplication1\appsettings.json" target="contentFiles\any\net7.0\appsettings.json" />
+  </files>
+</package>
