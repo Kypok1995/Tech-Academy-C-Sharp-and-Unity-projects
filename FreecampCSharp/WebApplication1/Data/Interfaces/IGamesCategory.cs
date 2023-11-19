@@ -4,6 +4,6 @@ namespace WebApplication1.Data.Interfaces
 {
     public interface IGamesCategory
     {
-        IEnumerable<Category> GetCategories();
+        IEnumerable<Category> AllCategories { get; }//to return all categories
     }
 }
