@@ -1,4 +1,4 @@
-﻿using WebApplication1.Data.Interfaces;
+using WebApplication1.Data.Interfaces;
 using WebApplication1.Data.Models;
 
 namespace WebApplication1.Data.mocks
@@ -22,6 +22,7 @@ namespace WebApplication1.Data.mocks
                     new Game { gameName = "Witcher 3",
                     shortDescription = "", longDescription = "", image = "", price = 45,
                     avaliable = true, isFavorite = false, Category = _GameCategory.AllCategories.ElementAt(0)}
+
                 };
             }
             set { }
