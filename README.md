@@ -7,7 +7,7 @@ This repository contain all projects I made during my Tech Academy bootcamp C# c
 </div>
 
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/андрей-трубицын-4abb31238/?locale=en_US">
+  <a href="https://www.linkedin.com/in/andrei-trubitsyn/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
