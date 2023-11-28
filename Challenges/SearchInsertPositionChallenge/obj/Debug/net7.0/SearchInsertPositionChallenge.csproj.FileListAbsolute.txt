@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\bin\Debug\net7.0\SearchInsertPositionChallenge.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\bin\Debug\net7.0\SearchInsertPositionChallenge.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\bin\Debug\net7.0\SearchInsertPositionChallenge.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\bin\Debug\net7.0\SearchInsertPositionChallenge.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\bin\Debug\net7.0\SearchInsertPositionChallenge.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\refint\SearchInsertPositionChallenge.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\SearchInsertPositionChallenge.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\SearchInsertPositionChallenge\obj\Debug\net7.0\ref\SearchInsertPositionChallenge.dll
