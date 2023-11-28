@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UG8BifwIBiiaqds4cdXGQ034tfOBFtoVR1Nh4q1zopvv4FfB3iUfXzUhIQ/9UpWn9FMwnWLmfjifE7iW7jUGgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\Challenges\\CombinationOfPhoneNumberChallenge\\CombinationOfPhoneNumberChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\bin\Debug\net7.0\CombinationOfPhoneNumberChallenge.exe
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\bin\Debug\net7.0\CombinationOfPhoneNumberChallenge.deps.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\bin\Debug\net7.0\CombinationOfPhoneNumberChallenge.runtimeconfig.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\bin\Debug\net7.0\CombinationOfPhoneNumberChallenge.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\bin\Debug\net7.0\CombinationOfPhoneNumberChallenge.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.AssemblyInfo.cs
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.sourcelink.json
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\refint\CombinationOfPhoneNumberChallenge.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.pdb
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\CombinationOfPhoneNumberChallenge.genruntimeconfig.cache
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Challenges\CombinationOfPhoneNumberChallenge\obj\Debug\net7.0\ref\CombinationOfPhoneNumberChallenge.dll
