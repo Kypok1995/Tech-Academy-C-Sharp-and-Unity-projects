@@ -30,10 +30,12 @@ namespace WebApplication1.Data.mocks
                         Category = _GameCategory.AllCategories.ElementAt(2) },
                     new Game { gameName = "Call of Duty Modern Warfare II",
                         shortDescription = "", longDescription = "", image = "", price = 79,
-                    avaliable = true, isFavorite = false, Category = _GameCategory.AllCategories.ElementAt(1)},
+                    avaliable = true, isFavorite = false, 
+                        Category = _GameCategory.AllCategories.ElementAt(1)},
                     new Game { gameName = "Witcher 3",
                         shortDescription = "", longDescription = "", image = "", price = 45,
-                    avaliable = true, isFavorite = false, Category = _GameCategory.AllCategories.ElementAt(0)}
+                    avaliable = true, isFavorite = false, 
+                        Category = _GameCategory.AllCategories.ElementAt(0)}
 
                 };
             }
