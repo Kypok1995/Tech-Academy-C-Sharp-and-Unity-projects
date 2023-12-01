@@ -1,0 +1,15 @@
+﻿@using WebApplication1.Data.Models
+@model GamesListViewModel
+
+    <h1> All games</h1>
+    <h3>@Model.currentCategory</h3>
+    @{
+        foreach (var game in Model.getAllGames)
+        {
+            <div>
+            <h2> Game: @game.gameName</h2>
+            <p>Price: @game.price.ToString("c")</p>
+            </div>
+        }
+    }
+

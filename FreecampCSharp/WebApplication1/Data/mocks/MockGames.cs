@@ -6,33 +6,33 @@ namespace WebApplication1.Data.mocks
     public class MockGames : IAllGames
     {
         private readonly IGamesCategory _GameCategory = new MockCategory();
-        public IEnumerable<Game> games
+        public IEnumerable<Games> games
         {
             get
             {
-                return new List<Game>
+                return new List<Games>
                 {
-                    new Game { gameName = "Oblivion", 
+                    new Games { gameName = "Oblivion", 
                         shortDescription = "", longDescription = "", image = "", 
                         price = 35, avaliable = true, isFavorite = true, 
                         Category = _GameCategory.AllCategories.First() },
-                    new Game { gameName = "Need for Speed: Most Wanted", 
+                    new Games { gameName = "Need for Speed: Most Wanted", 
                         shortDescription = "", longDescription = "", image = "", 
                         price = 20, avaliable = true, isFavorite = true, 
                         Category = _GameCategory.AllCategories.ElementAt(3) },
-                    new Game { gameName = "Fortnite", 
+                    new Games { gameName = "Fortnite", 
                         shortDescription = "", longDescription = "", image = "", 
                         price = 10, avaliable = true, isFavorite = false, 
                         Category = _GameCategory.AllCategories.ElementAt(1) },
-                    new Game { gameName = "Mario", 
+                    new Games { gameName = "Mario", 
                         shortDescription = "", longDescription = "", image = "", 
                         price = 20, avaliable = true, isFavorite = true, 
                         Category = _GameCategory.AllCategories.ElementAt(2) },
-                    new Game { gameName = "Call of Duty Modern Warfare II",
+                    new Games { gameName = "Call of Duty Modern Warfare II",
                         shortDescription = "", longDescription = "", image = "", price = 79,
                     avaliable = true, isFavorite = false, 
                         Category = _GameCategory.AllCategories.ElementAt(1)},
-                    new Game { gameName = "Witcher 3",
+                    new Games { gameName = "Witcher 3",
                         shortDescription = "", longDescription = "", image = "", price = 45,
                     avaliable = true, isFavorite = false, 
                         Category = _GameCategory.AllCategories.ElementAt(0)}
@@ -42,9 +42,9 @@ namespace WebApplication1.Data.mocks
             set { }
         }
 
-        public IEnumerable<Game> getFavoriteGames { get; set; }
+        public IEnumerable<Games> getFavoriteGames { get; set; }
 
-        public Game GetGame(int gameID)
+        public Games GetGame(int gameID)
         {
             throw new NotImplementedException();
         }

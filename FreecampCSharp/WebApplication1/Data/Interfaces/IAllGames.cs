@@ -4,8 +4,8 @@ namespace WebApplication1.Data.Interfaces
 {
     public interface IAllGames
     {
-        IEnumerable<Game> games { get; set; }
-        IEnumerable<Game> getFavoriteGames { get; set;}
-        Game GetGame(int gameID);
+        IEnumerable<Games> games { get; set; }
+        IEnumerable<Games> getFavoriteGames { get; set;}
+        Games GetGame(int gameID);
     }
 }

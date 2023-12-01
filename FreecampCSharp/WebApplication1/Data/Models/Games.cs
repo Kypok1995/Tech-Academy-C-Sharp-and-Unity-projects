@@ -1,6 +1,6 @@
 ﻿namespace WebApplication1.Data.Models
 {
-    public class Game
+    public class Games
     {
         //variable needed for game class
         public int gameID { get; set; }
