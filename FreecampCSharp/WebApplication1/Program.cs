@@ -9,7 +9,9 @@ builder.Services.AddTransient<IAllGames, MockGames>();//to link interface and cl
 builder.Services.AddTransient<IGamesCategory, MockCategory>();
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Games}/{action=List}/{id?}");
 
 // Configure services
 app.UseStaticFiles();

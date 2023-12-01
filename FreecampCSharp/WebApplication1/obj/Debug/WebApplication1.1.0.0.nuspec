@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>WebApplication1</authors>
     <description>Package Description</description>
-    <repository type="git" commit="adbdadbcd648b209189f1e8b8a5d21dea16cfd05" />
+    <repository type="git" commit="21771e0302ef5a833a5c2319ec39ce0aa0c49c1a" />
     <dependencies>
       <group targetFramework="net7.0">
         <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
