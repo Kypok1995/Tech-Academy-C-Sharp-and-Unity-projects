@@ -3,7 +3,7 @@ using WebApplication1.Data.Interfaces;
 using WebApplication1.Data.mocks;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddMvc();
+//builder.Services.AddMvc();
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IAllGames, MockGames>();//to link interface and class using it
 builder.Services.AddTransient<IGamesCategory, MockCategory>();
@@ -31,6 +31,10 @@ else
 }
 
 
+
 app.Run();
+
+
+
 
 
