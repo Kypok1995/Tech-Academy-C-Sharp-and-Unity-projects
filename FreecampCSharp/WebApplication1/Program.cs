@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data.Interfaces;
 using WebApplication1.Data.mocks;
+using WebApplication1.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddMvc();
@@ -12,6 +13,13 @@ var app = builder.Build();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Games}/{action=List}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Games}/{action=List}/{id?}");
+});
 
 // Configure services
 app.UseStaticFiles();
@@ -33,6 +41,7 @@ else
 
 
 app.Run();
+
 
 
 

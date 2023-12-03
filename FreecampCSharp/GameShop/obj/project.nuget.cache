@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DWNP9zdFeOrNj4hH7hLCeJw4+6m0xSVDHYL0N+EDw9VwQT+IL+5WxlgGUJMN9+3kbnZMlNmBTBksCkcqS5IDHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\GameShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
