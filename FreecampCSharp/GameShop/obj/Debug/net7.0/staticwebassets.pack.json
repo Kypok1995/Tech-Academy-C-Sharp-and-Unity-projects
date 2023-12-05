@@ -193,6 +193,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\CoD_ModernWarfare_II.jpg",
+      "PackagePath": "staticwebassets\\img\\CoD_ModernWarfare_II.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Fortnite.jpg",
+      "PackagePath": "staticwebassets\\img\\Fortnite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Mario.jpg",
+      "PackagePath": "staticwebassets\\img\\Mario.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\NeedForSpeed.jpg",
+      "PackagePath": "staticwebassets\\img\\NeedForSpeed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Oblivion.jpg",
+      "PackagePath": "staticwebassets\\img\\Oblivion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Witcher3.jfif",
+      "PackagePath": "staticwebassets\\img\\Witcher3.jfif"
+    },
+    {
       "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

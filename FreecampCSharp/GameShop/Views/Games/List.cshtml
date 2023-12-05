@@ -3,13 +3,16 @@
 
 <h1> All games</h1>
 <h3>@Model.currentCategory</h3>
+<div class="row mt-5 mb-2"
 @{
     foreach (var game in Model.getAllGames)
     {
-        <div>
+        <div class="col-lg-4">
+        <img class="img-thumbnail" src="@game.image" alt="@game.gameName"/>
             <h2> Game: @game.gameName</h2>
             <p>Price: @game.price.ToString("c")</p>
-            <p>Favourite: @game.isFavorite.ToString()</p>
+            <p><a class=" btn btn-warning" href="#">Подробнее</a></p>
         </div>
     }
 }
+</div>

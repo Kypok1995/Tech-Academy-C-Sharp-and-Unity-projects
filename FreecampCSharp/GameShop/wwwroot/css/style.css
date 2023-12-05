@@ -1,4 +1,21 @@
 ﻿body {
-    background: blue;
-    
+    background-color: #e1b382;
+}
+/*header {
+    background-color: #12343b;
+}*/
+
+.custom-navbar { /*to change navbar color*/
+    background-color: #2d545e !important;
+}
+
+    .custom-navbar .navbar-brand,  /*for changing color of navbar*/
+    .custom-navbar .navbar-nav .nav-link {
+        color: white !important;
+    }
+
+.img-thumbnail {
+    width: 450px; /* Adjust the width to desired size */
+    height: 450px; /* Adjust the height to  desired size */
+    object-fit:fill; /* Maintain aspect ratio and cover the container */
 }
