@@ -7,9 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<IAllGames, MockGames>();//to link interface with data class
-builder.Services.AddTransient<IGamesCategory, MockCategory>();
-builder.Services.AddDbContext<AppDBContent>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));//to connect database 
+builder.Services.AddTransient<IAllGames, GameRepository>();//to link interface with data class
+builder.Services.AddTransient<IGamesCategory, CategoryRepository>();
+builder.Services.AddDbContext<AppDBContent>(options => 
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));//to connect database and connection string 
 
 
 var app = builder.Build();
@@ -22,6 +23,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

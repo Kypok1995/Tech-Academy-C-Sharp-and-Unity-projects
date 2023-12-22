@@ -4,8 +4,8 @@ namespace GameShop.Interfaces
 {
     public interface IAllGames
     {
-        IEnumerable<Games> games { get; set; }
-        IEnumerable<Games> getFavoriteGames { get; set; }
+        IEnumerable<Games> games { get; }
+        IEnumerable<Games> getFavoriteGames { get; }
         Games GetGame(int gameID);
     }
 }

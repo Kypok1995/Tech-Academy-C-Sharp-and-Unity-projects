@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GameShop.DB
 {
-    public class AppDBContent : DbContext
+    public class AppDBContent : DbContext//inherits from main database configuration class
     {
         public AppDBContent(DbContextOptions<AppDBContent> options) : base(options)
         {
