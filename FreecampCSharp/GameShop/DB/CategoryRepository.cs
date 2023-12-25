@@ -7,7 +7,7 @@ namespace GameShop.DB
     {
 
         private readonly AppDBContent appDBContent;
-        public CategoryRepository (AppDBContent appDBContent, IEnumerable<Games> games, IEnumerable<Games> getFavoriteGames)
+        public CategoryRepository (AppDBContent appDBContent, IEnumerable<Games> games, IEnumerable<Games> getFavoriteGames)//constructor for categories repository
         {
             this.appDBContent = appDBContent;
 

@@ -7,7 +7,7 @@ namespace GameShop.DB
     public class GameRepository : IAllGames
     {
         private readonly AppDBContent appDBContent;
-        public GameRepository(AppDBContent appDBContent, IEnumerable<Games> games, IEnumerable<Games> getFavoriteGames)
+        public GameRepository(AppDBContent appDBContent, IEnumerable<Games> games, IEnumerable<Games> getFavoriteGames)//constructor for games repository
         {
             this.appDBContent = appDBContent;
  
