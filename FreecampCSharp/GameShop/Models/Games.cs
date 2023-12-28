@@ -3,7 +3,8 @@
     public class Games
     {
         //variable needed for game class
-        public int gameID { get; set; }
+  
+        public int gameID {get; set; }
         public string gameName { get; set; }
         public string shortDescription { get; set; }
         public string longDescription { get; set; }

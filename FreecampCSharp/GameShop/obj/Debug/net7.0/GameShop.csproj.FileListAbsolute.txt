@@ -70,3 +70,8 @@ C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\Freecam
 C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\obj\Debug\net7.0\GameShop.csproj.AssemblyReference.cache
 C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\obj\Debug\net7.0\GameShop.csproj.CopyComplete
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-Sharp-and-Unity-projects\FreecampCSharp\GameShop\bin\Debug\net7.0\System.CodeDom.dll
