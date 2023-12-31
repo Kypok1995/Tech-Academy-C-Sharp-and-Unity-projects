@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=your_server;Database=Shop;User=your_user;Password=your_password;"
+    "DefaultConnection": "Server=Server=MSI\\SQLEXPRESS;Database=Shop;Integrated Security=True;TrustServerCertificate=True;"
   },
 
   "Logging": {

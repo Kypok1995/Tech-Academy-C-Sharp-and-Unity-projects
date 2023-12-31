@@ -15,7 +15,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 var app = builder.Build();
 
-DbObjects.Initial(app);
+DbObjects.Initial(app);//to initialize database
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

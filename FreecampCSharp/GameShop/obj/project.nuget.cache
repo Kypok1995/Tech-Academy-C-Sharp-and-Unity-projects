@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8HmS27UZSZJIHG7aEojC4S/JX4UWmtWjei9H0PjhTZ85DixDILazYpOxekO94ozU+ad3Tw6u/JaoR8WmON5i6w==",
+  "dgSpecHash": "Pk9mfOlMpQablIudoIqn2S5juwLHqV4KPWLYeANH2nYJB6m2SyfZoIUj1FKpPosWpsX+eTd7bWfx+95ADdeHgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\GameShop.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,9 @@
     "C:\\Users\\Andrei\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.11\\microsoft.windowsdesktop.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.11\\microsoft.netcore.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.11\\microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.11\\microsoft.netcore.app.host.win-x86.7.0.11.nupkg.sha512"
   ],
   "logs": []
