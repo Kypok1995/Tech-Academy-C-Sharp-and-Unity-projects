@@ -1,0 +1,9 @@
+﻿@model GameShop.Models.Games
+
+<div class="col-lg-4">
+    <img class="img-thumbnail" src="@Model.image" alt="@Model.gameName" />
+    <h2> Game: @Model.gameName</h2>
+    <p>Price: @Model.price.ToString("c")</p>
+    <p> Description: @Model.shortDescription</p>
+    <p><a class=" btn btn-warning" href="#">More info</a></p>
+</div>

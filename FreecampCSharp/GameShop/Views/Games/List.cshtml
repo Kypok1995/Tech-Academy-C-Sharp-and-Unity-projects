@@ -5,15 +5,18 @@
 <h3>@Model.currentCategory</h3>
 <div class="row mt-5 mb-2"
 @{
-    foreach (var game in Model.getAllGames)
+    foreach (Games game in Model.getAllGames)
     {
-        <div class="col-lg-4">
+        @Html.Partial("AllGames", game)//implementing part of HTML document
+    }
+    
+   @*      <div class="col-lg-4">
         <img class="img-thumbnail" src="@game.image" alt="@game.gameName"/>
             <h2> Game: @game.gameName</h2>
             <p>Price: @game.price.ToString("c")</p>
-            <p> Description: @game.shortDescription.ToString()</p>
+            <p> Description: @game.shortDescription</p>
             <p><a class=" btn btn-warning" href="#">More info</a></p>
-        </div>
-    }
+        </div> *@
+    
 }
 </div>

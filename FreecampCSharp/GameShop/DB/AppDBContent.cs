@@ -12,8 +12,9 @@ namespace GameShop.DB
 
         public DbSet<Games> Games { get; set; }
         public DbSet<Category> Category { get; set; }
+        public DbSet<ShopCartItem> ShopCartItems { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)//to aautomatically add primary key based on game id
+        protected override void OnModelCreating(ModelBuilder modelBuilder)//to automatically add primary key based on game id
         {
             modelBuilder.Entity<Games>().HasKey(g => g.gameID);
         }
