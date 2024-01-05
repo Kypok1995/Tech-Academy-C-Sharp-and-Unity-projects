@@ -28,7 +28,7 @@ namespace GameShop.Models
             return new ShopCart(context) { ShopCartId = shopCartID };//returnes a new ShopCart with current ID
         }
 
-        public void AddToCart(Games game)
+        public void AddToCart(Games game) //create new shopcartitem with passed parameters
         {
             this.appDBContent.ShopCartItems.Add(new ShopCartItem
             {
