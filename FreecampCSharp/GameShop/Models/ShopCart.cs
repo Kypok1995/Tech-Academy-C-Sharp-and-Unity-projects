@@ -12,7 +12,7 @@ namespace GameShop.Models
             this.appDBContent = appDBContent;
         }
 
-        public string  ShopCartId { get; set; }
+        public string  ShopCartId { get; set; }//id for database reference
 
         public List<ShopCartItem> list_Items { get; set; }
 
