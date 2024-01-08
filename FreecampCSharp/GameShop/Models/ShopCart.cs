@@ -40,7 +40,7 @@ namespace GameShop.Models
             appDBContent.SaveChanges();
         }
 
-        public List<ShopCartItem> GetShopCartItems()
+        public List<ShopCartItem> GetShopCartItems() //method with LINQ query to retrieve items from current shop cart
         {
             return appDBContent.ShopCartItems.Where(c => c.ShopCartID == ShopCartId).Include(s => s.games).ToList();//return a list of items in shop cart, where ShopCarID is equal
         
