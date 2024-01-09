@@ -14,7 +14,7 @@ namespace GameShop.Models
 
         public string  ShopCartId { get; set; }//id for database reference
 
-        public List<ShopCartItem> list_Items { get; set; }
+        public List<ShopCartItem> list_Items { get; set; }//list of current shop cart items
 
         public static ShopCart GetCart(IServiceProvider services)
         {
