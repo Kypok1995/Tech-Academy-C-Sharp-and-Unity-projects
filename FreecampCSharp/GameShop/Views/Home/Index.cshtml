@@ -10,19 +10,28 @@
 </div> *@
 
 <h1> Favourite games</h1>
-<div class="row mt-5 mb-2"
+<div class="container">
+    <div class="row">
 @{
     foreach (Games game in Model.favGames)
     {
-        @Html.Partial("AllGames", game)
-        //implementing part of HTML document
+                <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img class="card-img-top img-fluid" src="@game.image" alt="@game.gameName">
+                            <div class="card-body" style="height: 200px;">
+                                <h4 class="card-title">@game.gameName</h4>
+                                <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                        @game.shortDescription
+                                </p>
+                                <p class="card-text">Price: @game.price.ToString("c")</p>
+                                <a href="#" class="btn btn-warning">More info</a>
+                            </div>
+                        </div>
+                    </div>
+        @* @Html.Partial("AllGames", game)
+        //implementing part of HTML document *@
     }
-    @* <div class="col-lg-4">
-     <img class="img-thumbnail" src="@game.image" alt="@game.gameName"/>
-     <h2> Game: @game.gameName</h2>
-     <p>Price: @game.price.ToString("c")</p>
-     <p> Description: @game.shortDescription</p>
-     <p><a class=" btn btn-warning" href="#">More info</a></p>
-     </div> *@
+
 }
+</div>
 </div>

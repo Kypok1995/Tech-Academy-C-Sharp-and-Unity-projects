@@ -3,6 +3,7 @@ using GameShop.Interfaces;
 using GameShop.Migrations;
 using GameShop.Models;
 using GameShop.Models.Mocks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -43,5 +44,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(//route for categories filter
+    name: "categoryFilter",
+    pattern: "{controller=Games}/{action=List}/{category?}",
+    defaults: new {Controller = "Games", action = "List"}) ;
 
 app.Run();

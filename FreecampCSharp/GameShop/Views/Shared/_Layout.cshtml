@@ -29,7 +29,21 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="ShopCart" asp-action="Index">Shop Cart</a>
                         </li>
+                        <li>
+                        <div class="dropdown"> @*dropdown menu for choose betweeen categories*@
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categories
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('RPG')">RPG<a>
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Shooter')">Shooter</a>
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Racing')">Racing</a>
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Platformer')">Platformer</a>
+                            </div>
+                        </div>
+                        </li>
                     </ul>
+                    
                 </div>
             </div>
         </nav>
@@ -50,6 +64,11 @@
         <p>© 2023, GameShop Inc.·
     </footer>
 
+    <script>//small script for navigation between categories
+        function navigateToCategory(category) {
+            window.location.href = '/Games/List/' + category;
+        }
+    </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

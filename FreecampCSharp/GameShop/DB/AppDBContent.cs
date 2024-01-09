@@ -13,6 +13,10 @@ namespace GameShop.DB
         public DbSet<Games> Games { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<ShopCartItem> ShopCartItems { get; set; }
+        public DbSet<Order> Order { get; set; }
+        public DbSet<OrderDetail> OrderDetail { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)//to automatically add primary key based on game id
         {

@@ -41,7 +41,7 @@ namespace GameShop.Controllers
                 _shopCart.AddToCart(item);
             }
 
-            return RedirectToAction("Index");//redirect iser to car page
+            return RedirectToAction("Index");//redirect user to game page
         }
     }
 }
