@@ -1,8 +1,28 @@
-﻿@{
+﻿@using GameShop.ViewModels
+@{
     ViewData["Title"] = "Home Page";
 }
+@model HomeViewModel
 
-<div class="text-center">
+@* <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+
+<h1> Favourite games</h1>
+<div class="row mt-5 mb-2"
+@{
+    foreach (Games game in Model.favGames)
+    {
+        @Html.Partial("AllGames", game)
+        //implementing part of HTML document
+    }
+    @* <div class="col-lg-4">
+     <img class="img-thumbnail" src="@game.image" alt="@game.gameName"/>
+     <h2> Game: @game.gameName</h2>
+     <p>Price: @game.price.ToString("c")</p>
+     <p> Description: @game.shortDescription</p>
+     <p><a class=" btn btn-warning" href="#">More info</a></p>
+     </div> *@
+}
 </div>

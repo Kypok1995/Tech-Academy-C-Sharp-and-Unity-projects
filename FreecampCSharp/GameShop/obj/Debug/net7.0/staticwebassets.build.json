@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ksffVlA7l2PoCNWkW5uFs0ziYKjjvCE3xxptUXTjemc=",
+  "Hash": "2Yw9HPRackI1Q81cfbW4rB6v9k/hnm3JRHF+lU2ff7o=",
   "Source": "GameShop",
   "BasePath": "_content/GameShop",
   "Mode": "Default",
@@ -984,6 +984,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Fortnite.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\HotspotShield-12.5.1-plain-773-plain.exe",
+      "SourceId": "GameShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\",
+      "BasePath": "_content/GameShop",
+      "RelativePath": "img/HotspotShield-12.5.1-plain-773-plain.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\HotspotShield-12.5.1-plain-773-plain.exe"
     },
     {
       "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Mario.jpg",

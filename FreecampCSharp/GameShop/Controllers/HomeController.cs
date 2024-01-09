@@ -1,4 +1,6 @@
-﻿using GameShop.Models;
+﻿using GameShop.Interfaces;
+using GameShop.Models;
+using GameShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,15 +9,25 @@ namespace GameShop.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private IAllGames _gameRep;
 
-        public HomeController(ILogger<HomeController> logger)
+    /*    public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+        }*/
+
+        public HomeController(IAllGames gameRep)
+        {
+            _gameRep = gameRep;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var homeGames = new HomeViewModel
+            {
+                favGames = _gameRep.getFavoriteGames
+            };
+            return View(homeGames);
         }
 
         public IActionResult Privacy()
@@ -28,5 +40,7 @@ namespace GameShop.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
     }
 }

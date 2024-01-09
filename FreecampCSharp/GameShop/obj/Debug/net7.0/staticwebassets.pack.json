@@ -201,6 +201,10 @@
       "PackagePath": "staticwebassets\\img\\Fortnite.jpg"
     },
     {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\HotspotShield-12.5.1-plain-773-plain.exe",
+      "PackagePath": "staticwebassets\\img\\HotspotShield-12.5.1-plain-773-plain.exe"
+    },
+    {
       "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Mario.jpg",
       "PackagePath": "staticwebassets\\img\\Mario.jpg"
     },
