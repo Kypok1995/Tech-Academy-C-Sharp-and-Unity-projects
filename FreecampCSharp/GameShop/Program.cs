@@ -14,6 +14,7 @@ builder.Services.AddScoped(sp => GameShop.Models.ShopCart.GetCart(sp));//to add 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IAllGames, GameRepository>();//to link interface with data class
 builder.Services.AddTransient<IGamesCategory, CategoryRepository>();
+builder.Services.AddTransient<IAllOrders, OrdersRepository>();
 builder.Services.AddDbContext<AppDBContent>(options => 
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));//to connect database and connection string 
 builder.Services.AddMemoryCache();//to implement a shop cart functionality
@@ -49,5 +50,11 @@ app.MapControllerRoute(//route for categories filter
     name: "categoryFilter",
     pattern: "{controller=Games}/{action=List}/{category?}",
     defaults: new {Controller = "Games", action = "List"}) ;
+
+app.MapControllerRoute(//route for categories filter
+    name: "shopCartAddition",
+    pattern: "{controller=ShopCart}/{action=addToCart}/{id?}",
+    defaults: new { Controller = "ShopCart", action = "addToCart" });
+
 
 app.Run();
