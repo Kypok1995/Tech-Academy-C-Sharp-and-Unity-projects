@@ -19,7 +19,7 @@
                             @game.shortDescription
                         </p>
                         <p class="card-text">Price: @game.price.ToString("c")</p>
-                         <p><a class=" btn btn-warning" asp-controller="ShopCart" asp-action="AddToCart" asp-route-gameID="@Model">Add to cart</a></p>
+                         <p><a class=" btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID">Add to cart</a></p>
                     </div>
                 </div>
             </div>

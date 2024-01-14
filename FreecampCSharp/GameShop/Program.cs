@@ -48,13 +48,16 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(//route for categories filter
     name: "categoryFilter",
-    pattern: "{controller=Games}/{action=List}/{category?}",
+    pattern: "{controller=Games}/{action=List}/{category?}/{id?}",
     defaults: new {Controller = "Games", action = "List"}) ;
 
-app.MapControllerRoute(//route for categories filter
+app.MapControllerRoute(//route for shop cart
     name: "shopCartAddition",
-    pattern: "{controller=ShopCart}/{action=addToCart}/{id?}",
-    defaults: new { Controller = "ShopCart", action = "addToCart" });
+    pattern: "{controller=ShopCart}/{action=addToCart}/{id?}");
+
+app.MapControllerRoute(
+    name: "completeConfiguration",
+    pattern: "{controller=Order}/{action=Complete}/{id?}");
 
 
 app.Run();

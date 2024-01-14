@@ -24,5 +24,30 @@ namespace GameShop.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Checkout(Order order)
+        {
+            shopCart.list_Items = shopCart.GetShopCartItems();
+
+            if(shopCart.list_Items.Count == 0)
+            {
+                ModelState.AddModelError("", "No items in the shop cart");
+            }
+
+            if(ModelState.IsValid)
+            {
+                allOrders.createOrder(order);
+                return RedirectToAction("Complete");
+            }
+            
+            return View(order);
+        }
+
+        public IActionResult Complete()
+        {
+            ViewBag.Message = "Order is succesfully placed";
+            return View();
+        }
     }
 }

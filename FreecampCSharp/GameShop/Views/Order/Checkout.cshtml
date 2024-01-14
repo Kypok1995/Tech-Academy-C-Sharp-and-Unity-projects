@@ -1,46 +1,5 @@
 ﻿@model Order
 
-@* <div class = "row">
-    <h3>Cart checkout</h3>
-    <form asp-action="Checkout" method="post" class="form-horizontal">
-        <div class="form-group">
-            <label asp-for="name" class="form-control" />
-            <div class="col-md-5">
-                <input asp-for="name" class="form-control"/>
-                <span asp-validation-for="name" class ="text-danger"></span>
-            </div>
-        </div>
-        <div class="form-group">
-            <label asp-for="surname" class="form-control" />
-            <div class="col-md-5">
-                <input asp-for="surname" class="form-control" />
-                <span asp-validation-for="surname" class="text-danger"></span>
-            </div>
-        </div>
-        <div class="form-group">
-            <label asp-for="address" class="form-control" />
-            <div class="col-md-5">
-                <input asp-for="address" class="form-control" />
-                <span asp-validation-for="address" class="text-danger"></span>
-            </div>
-        </div>
-        <div class="form-group">
-            <label asp-for="email" class="form-control" />
-            <div class="col-md-5">
-                <input asp-for="email" class="form-control" />
-                <span asp-validation-for="email" class="text-danger"></span>
-            </div>
-        </div>
-        <div class="form-group">
-            <label asp-for="phone" class="form-control" />
-            <div class="col-md-5">
-                <input asp-for="phone" class="form-control" />
-                <span asp-validation-for="phone" class="text-danger"></span>
-            </div>
-        </div>
-        <input class="btn btn-success" type="submit" value="End checkout" />
-    </form>
-</div> *@
 
 <div class="row">
     <h3>Cart checkout</h3>
@@ -84,6 +43,8 @@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input class="btn btn-success" type="submit" value="End checkout" />
+
+
             </div>
         </div>
     </form>
