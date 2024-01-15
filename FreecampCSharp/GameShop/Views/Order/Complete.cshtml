@@ -1,1 +1,35 @@
-﻿<h3>@ViewBag.Message</h3>
+﻿@using GameShop.Interfaces
+@model Order
+
+
+<h3>Order Summary</h3>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <td>@Model.name</td>
+    </tr>
+    <tr>
+        <th>Last Name</th>
+        <td>@Model.surname</td>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <td>@Model.address</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>@Model.email</td>
+    </tr>
+    <tr>
+        <th>Phone</th>
+        <td>@Model.phone</td>
+    </tr>
+</table>
+
+<h3>Order Items</h3>
+
+
+
+
+<p>Order placed successfully!</p>

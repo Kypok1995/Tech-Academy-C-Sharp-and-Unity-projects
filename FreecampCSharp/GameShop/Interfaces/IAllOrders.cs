@@ -4,7 +4,10 @@ namespace GameShop.Interfaces
 {
     public interface IAllOrders
     {
-        void createOrder(Order order);
+        int createOrder(Order order);
+
+        Order GetOrderById(int orderId);
 
     }
+
 }

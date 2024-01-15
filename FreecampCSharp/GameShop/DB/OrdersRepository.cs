@@ -7,20 +7,23 @@ namespace GameShop.DB
     {
         private readonly AppDBContent _content;
         private readonly ShopCart shopCart;
+  
 
-        public OrdersRepository(AppDBContent content, ShopCart shopCart)
+        public OrdersRepository(AppDBContent content,  ShopCart shopCart)
         {
             _content = content;
             this.shopCart = shopCart;
+           
         }
 
         
-        public void createOrder(Order order)
+        public int createOrder(Order order)
         {
             order.orderTime = DateTime.Now;
-            _content.Order.Add(order);
+            
 
             var items = shopCart.list_Items;
+            //var orderDetails = new List<OrderDetail>();
 
             foreach (var item in items)
             {
@@ -31,10 +34,20 @@ namespace GameShop.DB
                     price = item.games.price,
                 };
 
-                _content.OrderDetail.Add(orderDetail);
-            }
+                //orderDetails.Add(orderDetail);
+                //_content.OrderDetail.Add(orderDetail); //for future improvements
 
+
+            }
+            _content.Order.Add(order);
             _content.SaveChanges();
+
+            return order.id;
+        }
+
+        public Order GetOrderById(int orderId)
+        {
+            return _content.Order.FirstOrDefault(o => o.id == orderId);
         }
     }
 }

@@ -36,7 +36,9 @@ namespace GameShop.Models
         [ScaffoldColumn(false)]
         public DateTime orderTime { get; set; }
 
-        public List<OrderDetail> orderDetails { get; set; }
+     /*   [BindNever]
+        [Required(AllowEmptyStrings = true)]
+        public List<OrderDetail?> orderDetails { get; set; }//nullable type as it can be no order details*/
 
     }
 }
