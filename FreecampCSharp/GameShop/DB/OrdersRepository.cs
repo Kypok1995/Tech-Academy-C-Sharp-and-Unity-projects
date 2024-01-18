@@ -12,7 +12,7 @@ namespace GameShop.DB
         public OrdersRepository(AppDBContent content,  ShopCart shopCart)
         {
             _content = content;
-            this.shopCart = shopCart;
+            this.shopCart = shopCart; 
            
         }
 
@@ -22,7 +22,7 @@ namespace GameShop.DB
             order.orderTime = DateTime.Now;
             
 
-            var items = shopCart.list_Items;
+            var items = shopCart.list_Items; //retrieve list of current shop cart items
             //var orderDetails = new List<OrderDetail>();
 
             foreach (var item in items)
