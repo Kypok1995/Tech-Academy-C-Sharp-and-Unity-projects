@@ -17,7 +17,7 @@ namespace GameShop.DB
         }
 
         
-        public int createOrder(Order order)
+        public int createOrder(Order order)//takes order as parameter and return created order id
         {
             order.orderTime = DateTime.Now;
             
