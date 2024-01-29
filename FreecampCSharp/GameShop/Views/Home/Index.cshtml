@@ -15,19 +15,25 @@
 @{
     foreach (Games game in Model.favGames)
     {
-                <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <img class="card-img-top img-fluid" src="@game.image" alt="@game.gameName">
-                            <div class="card-body" style="height: 200px;">
-                                <h4 class="card-title">@game.gameName</h4>
-                                <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                        @game.shortDescription
-                                </p>
-                                <p class="card-text">Price: @game.price.ToString("c")</p>
-                                <a href="#" class="btn btn-warning">More info</a>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="card h-100" style="width: 18rem; display: flex; flex-direction: column;">
+                        <img class="card-img-top img-fluid" src="@game.image" alt="@game.gameName" style="height: 150px; object-fit: cover;">
+                        <div class="card-body" style="height: 220px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <div>
+                                <h5 class="card-title">@game.gameName</h5>
+                                <div class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                    @game.shortDescription
+                                </div>
+                            </div>
+                            <div class="text-center mt-auto">
+                                <p class="card-text mb-0">Price: <strong>@game.price.ToString("c")</strong></p>
+                                <a class="btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID">Add to cart</a>
                             </div>
                         </div>
                     </div>
+                </div>
+
         @* @Html.Partial("AllGames", game)
         //implementing part of HTML document *@
     }

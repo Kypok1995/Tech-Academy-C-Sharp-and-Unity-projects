@@ -10,16 +10,20 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         @foreach (Games game in Model.getAllGames)
         {
-            <div class="col mb-4">
-                <div class="card h-100 d-flex flex-column">
-                    <img class="card-img-top img-fluid" src="@game.image" alt="@game.gameName">
-                    <div class="card-body flex-grow-1">
-                        <h5 class="card-title">@game.gameName</h5>
-                        <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                            @game.shortDescription
-                        </p>
-                        <p class="card-text">Price: @game.price.ToString("c")</p>
-                         <p><a class=" btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID">Add to cart</a></p>
+            <div class="col-lg-3 col-md-4 mb-4">
+                <div class="card h-100" style="width: 18rem; display: flex; flex-direction: column;">
+                    <img class="card-img-top img-fluid" src="@game.image" alt="@game.gameName" style="height: 150px; object-fit: cover;">
+                    <div class="card-body" style="height: 220px; display: flex; flex-direction: column; justify-content: space-between;">
+                        <div>
+                            <h5 class="card-title">@game.gameName</h5>
+                            <div class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                @game.shortDescription
+                            </div>
+                        </div>
+                        <div class="text-center mt-auto">
+                            <p class="card-text mb-0">Price: <strong>@game.price.ToString("c")</strong></p>
+                            <a class="btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID">Add to cart</a>
+                        </div>
                     </div>
                 </div>
             </div>
