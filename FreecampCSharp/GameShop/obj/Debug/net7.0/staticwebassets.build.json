@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Yw9HPRackI1Q81cfbW4rB6v9k/hnm3JRHF+lU2ff7o=",
+  "Hash": "p4C7NOWbVhUcr/GEOkeyFLvCf1rBQalTEZSDODZDIs0=",
   "Source": "GameShop",
   "BasePath": "_content/GameShop",
   "Mode": "Default",
@@ -1060,6 +1060,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Oblivion.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Starfield.jpg",
+      "SourceId": "GameShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\",
+      "BasePath": "_content/GameShop",
+      "RelativePath": "img/Starfield.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Starfield.jpg"
     },
     {
       "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Witcher3.jfif",

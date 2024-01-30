@@ -92,6 +92,17 @@ namespace GameShop.DB
                         avaliable = true,
                         isFavorite = false,
                         Category = Categories["Shooter"]
+                    },
+                    new Games
+                    {
+                        gameName = "Starfield",
+                        shortDescription = "Starfield is a 2023 action role-playing game developed by Bethesda Game Studios ",
+                        longDescription = "In the year 2330, humanity has ventured beyond our solar system, settling new planets, and living as a spacefaring people. You will join Constellation – the last group of space explorers seeking rare artifacts throughout the galaxy – and navigate the vast expanse of space in Bethesda Game Studios’ biggest and most ambitious game.",
+                        image = "/img/Starfield.jpg",
+                        price = 70,
+                        avaliable = true,
+                        isFavorite = true,
+                        Category = Categories["RPG"]
                     });
 
                 }; //add games into list
