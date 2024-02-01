@@ -103,6 +103,18 @@ namespace GameShop.DB
                         avaliable = true,
                         isFavorite = true,
                         Category = Categories["RPG"]
+                    },
+                    new Games
+                    {
+                        gameName = "Painkiller",
+                        shortDescription = "Painkiller is a first-person shooter video game developed by Polish game studio People Can Fly ",
+                        longDescription = "The game's single player campaign follows a dead man in Purgatory who is offered a deal to defeat the invading forces of Lucifer's army in exchange for being allowed to enter Heaven. The game was particularly well-received for its multiplayer experience and was featured for two seasons on the Cyberathlete Professional League's World Tour.",
+                        image = "/img/Painkiller.png",
+                        price = 15,
+                        avaliable = true,
+                        isFavorite = false,
+                        Category = Categories["Shooter"]
+
                     });
 
                 }; //add games into list
