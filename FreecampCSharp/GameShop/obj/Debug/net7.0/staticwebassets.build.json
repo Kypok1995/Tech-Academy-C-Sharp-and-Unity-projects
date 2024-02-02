@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p4C7NOWbVhUcr/GEOkeyFLvCf1rBQalTEZSDODZDIs0=",
+  "Hash": "ZZFiJqG9SQRaLpWIxZ2sYoJb3Io/GjBa397A2usu1+c=",
   "Source": "GameShop",
   "BasePath": "_content/GameShop",
   "Mode": "Default",
@@ -1062,6 +1062,25 @@
       "OriginalItemSpec": "wwwroot\\img\\Oblivion.jpg"
     },
     {
+      "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Painkiller.png",
+      "SourceId": "GameShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\",
+      "BasePath": "_content/GameShop",
+      "RelativePath": "img/Painkiller.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Painkiller.png"
+    },
+    {
       "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Starfield.jpg",
       "SourceId": "GameShop",
       "SourceType": "Discovered",
@@ -1081,6 +1100,25 @@
       "OriginalItemSpec": "wwwroot\\img\\Starfield.jpg"
     },
     {
+      "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Website_background.jpg",
+      "SourceId": "GameShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\",
+      "BasePath": "_content/GameShop",
+      "RelativePath": "img/Website_background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Website_background.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Witcher3.jfif",
       "SourceId": "GameShop",
       "SourceType": "Discovered",
@@ -1098,6 +1136,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Witcher3.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\img\\Zoom_cm_fo42pnktZ9vvrZo4_maYTaaX1jpkwKNdqRRmF+HKWnNKsvcbc93t9B@wXRL8Fk8Q9liCTr1_kbe4d93cfa2548092_.exe",
+      "SourceId": "GameShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\",
+      "BasePath": "_content/GameShop",
+      "RelativePath": "img/Zoom_cm_fo42pnktZ9vvrZo4_maYTaaX1jpkwKNdqRRmF+HKWnNKsvcbc93t9B@wXRL8Fk8Q9liCTr1_kbe4d93cfa2548092_.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Zoom_cm_fo42pnktZ9vvrZo4_maYTaaX1jpkwKNdqRRmF+HKWnNKsvcbc93t9B@wXRL8Fk8Q9liCTr1_kbe4d93cfa2548092_.exe"
     },
     {
       "Identity": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\js\\site.js",

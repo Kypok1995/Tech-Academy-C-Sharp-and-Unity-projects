@@ -11,6 +11,12 @@ a[b-yyj6kdgg06] {
   color: #0077cc;
 }
 
+body[b-yyj6kdgg06] { /* body styling with background image*/
+
+}
+
+
+
 .btn-primary[b-yyj6kdgg06] {
   color: #fff;
   background-color: #1b6ec2;
@@ -40,9 +46,20 @@ button.accept-policy[b-yyj6kdgg06] {
 }
 
 .footer[b-yyj6kdgg06] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
 }
+
+
+.container[b-yyj6kdgg06] {
+    width: 100%;
+    flex: 1;
+}
+
