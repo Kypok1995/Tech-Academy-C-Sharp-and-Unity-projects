@@ -181,6 +181,18 @@
       "PackagePath": "staticwebassets\\GameShop.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\css\\Product_card.css",
+      "PackagePath": "staticwebassets\\css\\Product_card.css"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\css\\Product_card.min.css",
+      "PackagePath": "staticwebassets\\css\\Product_card.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\css\\Product_card.scss",
+      "PackagePath": "staticwebassets\\css\\Product_card.scss"
+    },
+    {
       "Id": "C:\\Users\\Andrei\\Documents\\GitHub\\Tech-Academy-C-Sharp-and-Unity-projects\\FreecampCSharp\\GameShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
