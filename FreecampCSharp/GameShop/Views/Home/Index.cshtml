@@ -3,9 +3,9 @@
     ViewData["Title"] = "Home Page";
 }
 @model HomeViewModel
-@* <head>
+ <head>
  <link rel=" stylesheet" href="~/css/Product_card.css" asp-append-version="true" />
-</head>*@
+</head>
 
 <h1> Favourite games</h1>
 <div class="container">
@@ -26,7 +26,6 @@
                             </div>
                             <div class="text-center mt-auto">
                                 <p class="card-text mb-0">Price: <strong>@game.price.ToString("c")</strong></p>
-                                <a class="btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID">Add to cart</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +35,44 @@
         //implementing part of HTML document *@
 
 
-              
+                <div class="container page-wrapper">
+                    <div class="page-inner">
+                        <div class="row">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img" src="@game.image" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">@game.gameName</span>
+                                            <span class="p-company">@game.shortDescription</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
+
+                                    <a class="cart" href="#">
+                                        <span class="price">@game.price</span>
+                                        @*  <a class="add-to-cart" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID"><span class="txt">Add in cart</span></a>
+                                         <span class="add-to-cart">
+                                            <span class="txt">Add in cart</span>
+                                        </span>*@
+
+                                        <span class="custom-btn add-to-cart" onclick="addToCart('@game.gameID')">
+                                            <span class="txt">Add in cart</span>
+                                            <!-- Hidden anchor for triggering the action -->
+                                            <a id="addToCartLink" style="display: none;" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID"></a>
+                                        </span>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     }
 
 
@@ -47,3 +83,11 @@
 
     </div>
 </div>
+
+<script>
+    function addToCart(gameID) {
+        // Update the route-id attribute of the hidden anchor before triggering the click
+        document.getElementById('addToCartLink').setAttribute('asp-route-id', gameID);
+        document.getElementById('addToCartLink').click();
+    }
+</script>
