@@ -34,7 +34,7 @@
         @* @Html.Partial("AllGames", game)
         //implementing part of HTML document *@
 
-
+                <div class="col-lg-4 col-md-6 mb-4">
                 <div class="container page-wrapper">
                     <div class="page-inner">
                         <div class="row">
@@ -59,9 +59,9 @@
                                         @*  <a class="add-to-cart" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID"><span class="txt">Add in cart</span></a>
                                          <span class="add-to-cart">
                                             <span class="txt">Add in cart</span>
-                                        </span>*@
+                                </span>*@
 
-                                        <span class="custom-btn add-to-cart" onclick="addToCart('@game.gameID')">
+                                       <span class="custom-btn add-to-cart" onclick="addToCart('@game.gameID')">
                                             <span class="txt">Add in cart</span>
                                             <!-- Hidden anchor for triggering the action -->
                                             <a id="addToCartLink" style="display: none;" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID"></a>
@@ -72,6 +72,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
     }
 
@@ -84,10 +85,10 @@
     </div>
 </div>
 
-<script>
+<script> @*function which pass a gameID to addToCart method*@
     function addToCart(gameID) {
-        // Update the route-id attribute of the hidden anchor before triggering the click
-        document.getElementById('addToCartLink').setAttribute('asp-route-id', gameID);
-        document.getElementById('addToCartLink').click();
+        var addToCartLink = document.getElementById('addToCartLink');
+        addToCartLink.href = '/ShopCart/addToCart/' + gameID;
+        addToCartLink.click();
     }
 </script>
