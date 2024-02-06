@@ -33,7 +33,7 @@ namespace GameShop.Controllers
             return View(obj);//returnes a view with obj consisting current shop cart
         }
 
-        public RedirectToActionResult addToCart(int id)
+        public RedirectToActionResult addToCart(int id) //method to add item into shop cart, is activated by add to cart button
         {
             var item = _gameRepository.games.FirstOrDefault(i => i.gameID == id);//search for an item based on id
             if (item != null)
