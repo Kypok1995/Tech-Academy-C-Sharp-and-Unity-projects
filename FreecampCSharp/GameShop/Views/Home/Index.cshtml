@@ -56,11 +56,7 @@
                                     </div>
 
                                     <a class="cart" href="#">
-                                        <span class="price">@game.price</span>
-                                        @*  <a class="add-to-cart" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID"><span class="txt">Add in cart</span></a>
-                                         <span class="add-to-cart">
-                                            <span class="txt">Add in cart</span>
-                                </span>*@
+                                            <span class="price"><strong>@game.price.ToString("c")</strong></span>
 
                                        <span class="custom-btn add-to-cart" onclick="addToCart('@game.gameID')">
                                             <span class="txt">Add in cart</span>

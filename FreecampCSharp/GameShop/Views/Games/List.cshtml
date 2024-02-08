@@ -1,6 +1,10 @@
 ﻿﻿@using GameShop.ViewModels
 @model GamesListViewModel
 
+<head>
+    <link rel=" stylesheet" href="~/css/Product_card.css" asp-append-version="true" />
+</head>
+
 <h1> All games</h1>
 <h3>@Model.currentCategory</h3>
 
@@ -10,7 +14,7 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         @foreach (Games game in Model.getAllGames)
         {
-            <div class="col-lg-3 col-md-4 mb-4">
+       @*     <div class="col-lg-3 col-md-4 mb-4">
                 <div class="card h-100" style="width: 18rem; display: flex; flex-direction: column;">
                     <img class="card-img-top img-fluid" src="@game.image" alt="@game.gameName" style="height: 150px; object-fit: cover;">
                     <div class="card-body" style="height: 220px; display: flex; flex-direction: column; justify-content: space-between;">
@@ -26,7 +30,52 @@
                         </div>
                     </div>
                 </div>
+            </div>*@
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="container page-wrapper">
+                    <div class="page-inner">
+                        <div class="row">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img" src="@game.image" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">@game.gameName</span>
+                                            <span class="p-company">@game.shortDescription</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
+
+                                    <a class="cart" href="#">
+                                        <span class="price"><strong>@game.price.ToString("c")</strong></span>
+
+                                        <span class="custom-btn add-to-cart" onclick="addToCart('@game.gameID')">
+                                            <span class="txt">Add in cart</span>
+                                            <!-- Hidden anchor for triggering the action -->
+                                            <a id="addToCartLink" style="display: none;" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@game.gameID"></a>
+                                        </span>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         }
     </div>
 </div>
+
+<script>    @*function which pass a gameID to addToCart method*@
+        function addToCart(gameID) {
+            var addToCartLink = document.getElementById('addToCartLink');
+            addToCartLink.href = '/ShopCart/addToCart/' + gameID;
+            addToCartLink.click();
+        }
+</script>

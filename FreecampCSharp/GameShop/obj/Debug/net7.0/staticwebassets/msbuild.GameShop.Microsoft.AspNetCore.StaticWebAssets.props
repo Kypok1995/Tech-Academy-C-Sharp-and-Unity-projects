@@ -784,6 +784,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Witcher3.jfif))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Zoom_cm_ds_mp+Q2La7u8lrWzXrl9mzzfzmoW8d9A2MFj2A@pSqRni8cOkpI15Er_k126844b31320ce2e_.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>GameShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GameShop</BasePath>
+      <RelativePath>img/Zoom_cm_ds_mp+Q2La7u8lrWzXrl9mzzfzmoW8d9A2MFj2A@pSqRni8cOkpI15Er_k126844b31320ce2e_.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Zoom_cm_ds_mp+Q2La7u8lrWzXrl9mzzfzmoW8d9A2MFj2A@pSqRni8cOkpI15Er_k126844b31320ce2e_.exe))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Zoom_cm_fo42mnktZ9vvrZo4_mKyDarmOUHqJ5gPZ0QIRequbSXkfMfoYr3R27@S8lT5XRJSWjFYXil_k72df17fad816633b_.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>GameShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GameShop</BasePath>
+      <RelativePath>img/Zoom_cm_fo42mnktZ9vvrZo4_mKyDarmOUHqJ5gPZ0QIRequbSXkfMfoYr3R27@S8lT5XRJSWjFYXil_k72df17fad816633b_.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Zoom_cm_fo42mnktZ9vvrZo4_mKyDarmOUHqJ5gPZ0QIRequbSXkfMfoYr3R27@S8lT5XRJSWjFYXil_k72df17fad816633b_.exe))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Zoom_cm_fo42pnktZ9vvrZo4_maYTaaX1jpkwKNdqRRmF+HKWnNKsvcbc93t9B@wXRL8Fk8Q9liCTr1_kbe4d93cfa2548092_.exe))">
       <SourceType>Package</SourceType>
       <SourceId>GameShop</SourceId>
