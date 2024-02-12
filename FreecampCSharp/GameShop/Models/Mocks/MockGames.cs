@@ -9,7 +9,7 @@ namespace GameShop.Models.Mocks
         {
             get
             {
-                return new List<Games>
+                return new List<Games> //list of current games
                 {
                     new Games { gameName = "Oblivion",
                         shortDescription = "Critically acclaimed action role-playing game released in 2006.",
