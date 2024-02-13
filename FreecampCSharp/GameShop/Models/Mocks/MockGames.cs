@@ -53,7 +53,7 @@ namespace GameShop.Models.Mocks
             set { }
         }
 
-        public IEnumerable<Games> getFavoriteGames { get; set; }
+        public IEnumerable<Games> getFavoriteGames { get; set; }// need for main page 
 
         public Games GetGame(int gameID)
         {
