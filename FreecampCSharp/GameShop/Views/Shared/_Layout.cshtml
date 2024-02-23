@@ -37,9 +37,9 @@
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Categories
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+                            <div class="dropdown-menu" aria-labelledby="categoryDropdown"> @* choice between different categories, use JS script for redirecting to a right winrow*@
                                     <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('RPG')">RPG</a>
-                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Shooter')">Shooter</a>
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Shooter')">Shooter</a> 
                                     <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Racing')">Racing</a>
                                     <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Platformer')">Platformer</a>
                             </div>
@@ -72,6 +72,7 @@
             window.location.href = '/Games/List/' + category;
         }
     </script>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
