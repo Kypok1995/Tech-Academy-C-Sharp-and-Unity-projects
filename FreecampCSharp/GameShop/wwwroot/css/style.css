@@ -169,7 +169,7 @@ code {
     display: grid;
     grid-template-columns: repeat(var(--items), 1fr);
     position: relative;
-    z-index: 100000;
+
 }
 
     .links > .line {
