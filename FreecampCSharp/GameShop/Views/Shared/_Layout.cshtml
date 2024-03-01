@@ -11,8 +11,32 @@
     <link rel=" stylesheet" href="~/css/style.css" asp-append-version="true" />
     
 </head>
+
+<header id="header">
+	<nav class="links" style="--items: 4;">
+        <a  asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-area="" asp-controller="Games" asp-action="List">All games</a>
+        <a asp-area="" asp-controller="ShopCart" asp-action="Index">Shop Cart</a>
+        <div class="dropdown">
+            <button class="dropdown-btn" id="categoryDropdown" onclick="toggleDropdown()">Categories</button>
+            <div class="dropdown-menu" id="categoryDropdownMenu"  aria-labelledby="categoryDropdownMenu">
+                @* choice between different categories, use JS script for redirecting to a right winrow*@
+            <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('RPG')">RPG</a>
+            <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Shooter')">Shooter</a>
+            <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Racing')">Racing</a>
+            <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Platformer')">Platformer</a>
+            </div>
+            </div>
+		<span class="line"></span>
+	</nav>
+</header>
+
+
+
 @* standart fashioned navbar*@
 <body>
+@*
+   
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light custom-navbar border-bottom box-shadow mb-3 ">
             <div class="container-fluid">
@@ -33,12 +57,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="ShopCart" asp-action="Index">Shop Cart</a>
                         </li>
                         <li>
-                        <div class="dropdown"> @*dropdown menu for choose betweeen categories*@
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropdown">    @*dropdown menu for choose betweeen categories*@
+                         @*   <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Categories
                             </button>
                             <div class="dropdown-menu" aria-labelledby="categoryDropdown"> @* choice between different categories, use JS script for redirecting to a right winrow*@
-                                    <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('RPG')">RPG</a>
+                             @*       <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('RPG')">RPG</a>
                                     <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Shooter')">Shooter</a> 
                                     <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Racing')">Racing</a>
                                     <a class="dropdown-item" href="javascript:void(0);" onclick="navigateToCategory('Platformer')">Platformer</a>
@@ -51,6 +75,10 @@
             </div>
         </nav>
     </header>
+    *@
+
+     
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -71,7 +99,17 @@
         function navigateToCategory(category) {
             window.location.href = '/Games/List/' + category;
         }
+
+        // JavaScript function to toggle dropdown menu visibility
+        function toggleDropdown() {
+            var dropdownMenu = document.getElementById("categoryDropdownMenu");
+            dropdownMenu.classList.toggle("show");
+        }
+        
+
     </script>
+
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

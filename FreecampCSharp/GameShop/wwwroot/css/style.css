@@ -48,3 +48,232 @@ h1 {
     height: 450px; /* Adjust the height to  desired size */
     object-fit:fill; /* Maintain aspect ratio and cover the container */
 }
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+
+html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #345;
+    background-image: linear-gradient(to bottom, #0009, transparent);
+    color: #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 50px; /* Adjust margin-top to create space between navbar and main body */
+    padding-top: 20px;
+}
+
+code {
+    background: #fff1;
+    font-family: 'Inconsolata', monospace;
+    padding: .2em .4em;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 1.6em;
+    line-height: 1.4em;
+    margin: 20px auto;
+    margin-top: 80px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+    .content ul {
+        margin: .5em 2em;
+        padding: 0;
+    }
+
+#footer {
+    background-color: #246c;
+    background-image: linear-gradient(to bottom, transparent, #0009);
+    border-top: 1px solid #fff3;
+    box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
+    overflow: hidden;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9001;
+}
+
+    #footer a {
+        color: #85c6f6;
+        padding: 1em 0;
+        text-decoration: none;
+    }
+
+    #footer ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: 300;
+    }
+
+        #footer ul li {
+            padding: 0 .5em;
+        }
+
+/* Appearance */
+.links {
+    background-color: #123;
+    background-image: linear-gradient(to bottom, #0003, transparent);
+    border-bottom: 1px solid #0003;
+    box-shadow: 0 0 32px #0003;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+    .links > a {
+        color: #9ab;
+        padding: .75em;
+        text-align: center;
+        text-decoration: none;
+        transition: all .5s;
+    }
+
+        .links > a:hover {
+            background: #ffffff06;
+            color: #adf;
+        }
+
+    .links > .line {
+        background: #68a;
+        height: 1px;
+        pointer-events: none;
+    }
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(var(--items), 1fr);
+    position: relative;
+    z-index: 100000;
+}
+
+    .links > .line {
+        opacity: 0;
+        transition: all .5s;
+        position: absolute;
+        bottom: 0;
+        left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
+        width: var(--width, calc(100% / var(--items)));
+        --index: 0;
+    }
+
+    .links > a:hover ~ .line {
+        opacity: 1;
+    }
+
+    .links > a:nth-of-type(1):hover ~ .line {
+        --index: 1;
+    }
+
+    .links > a:nth-of-type(2):hover ~ .line {
+        --index: 2;
+    }
+
+    .links > a:nth-of-type(3):hover ~ .line {
+        --index: 3;
+    }
+
+    .links > a:nth-of-type(4):hover ~ .line {
+        --index: 4;
+    }
+
+    .links > a:nth-of-type(5):hover ~ .line {
+        --index: 5;
+    }
+
+    .links > a:nth-of-type(6):hover ~ .line {
+        --index: 6;
+    }
+
+    .links > a:nth-of-type(7):hover ~ .line {
+        --index: 7;
+    }
+
+    .links > a:nth-of-type(8):hover ~ .line {
+        --index: 8;
+    }
+
+    .links > a:nth-of-type(9):hover ~ .line {
+        --index: 9;
+    }
+
+    .links > a:nth-of-type(10):hover ~ .line {
+        --index: 10;
+    }
+
+    .links > a:last-of-type:hover ~ .line {
+        --index: var(--items);
+    }
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    background-color: #123; /* Match the background color of other buttons */
+    border: none; /* Remove default dropdown border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    position: absolute;
+    top: 100%; /* Position the dropdown menu below the button */
+    left: 0;
+    z-index: 99999; /* Ensure the dropdown menu appears above other elements */
+    display: none; 
+}
+
+    .dropdown-menu a {
+        color: #9ab; /* Match the text color of other buttons */
+    display: block;
+    padding: .75em 1.25em; /* Adjust padding as needed */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+        .dropdown-menu a:hover {
+            background-color: #ffffff06; /* Match the hover background color of other buttons */
+            color: #adf; /* Match the hover text color of other buttons */
+        }
+
+.dropdown-btn {
+    color: #9ab; /* Match the text color of other links */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    padding: .75em; /* Adjust padding */
+    font-size: 1em; /* Match font size of other links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition effect */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+    .dropdown-btn:hover {
+        color: #adf; /* Match hover text color of other links */
+    }
+
+    .dropdown-btn:focus {
+        outline: none; /* Remove default focus outline */
+    }
+
+    .dropdown-menu.show {
+        display: block; /* Show the dropdown menu when the class "show" is added */
+    }
