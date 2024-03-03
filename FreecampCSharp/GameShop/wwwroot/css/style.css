@@ -238,8 +238,11 @@ code {
     position: absolute;
     top: 100%; /* Position the dropdown menu below the button */
     left: 0;
-    z-index: 99999; /* Ensure the dropdown menu appears above other elements */
-    display: none; 
+    display: none;
+    z-index: 9;
+}
+.dropdown-item {
+    z-index: 10; /* Ensure the dropdown menu appears above other elements */
 }
 
     .dropdown-menu a {
