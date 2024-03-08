@@ -1,6 +1,7 @@
-﻿body,     /* styling for product card, using on all pages*/
+﻿body, /* styling for product card, using on all pages*/
 html {
     height: 100%;
+    padding-top: 80px;
 }
 
 .d-flex {

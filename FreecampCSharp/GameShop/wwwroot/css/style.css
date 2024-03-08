@@ -1,10 +1,12 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+
+
+body {
     background-color: #e1b382;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
 }
     body::before {
         content: "";
@@ -34,22 +36,22 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.custom-navbar { /*to change navbar color*/
-    background-color: /*#2d545e*/ black !important;
+/*.custom-navbar {*/ /*to change navbar color*/
+    /*background-color:*/ /*#2d545e*/ /*black !important;
 }
 
-    .custom-navbar .navbar-brand,  /*for changing color of navbar*/
-    .custom-navbar .navbar-nav .nav-link {
+    .custom-navbar .navbar-brand,*/  /*for changing color of navbar*/
+    /*.custom-navbar .navbar-nav .nav-link {
         color: white !important;
-    }
+    }*/
 
-.img-thumbnail {
-    width: 450px; /* Adjust the width to desired size */
-    height: 450px; /* Adjust the height to  desired size */
-    object-fit:fill; /* Maintain aspect ratio and cover the container */
-}
+/*.img-thumbnail {
+    width: 450px;*/ /* Adjust the width to desired size */
+    /*height: 450px;*/ /* Adjust the height to  desired size */
+    /*object-fit:fill;*/ /* Maintain aspect ratio and cover the container */
+/*}*/
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+
 
 html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
     margin: 0;
@@ -108,7 +110,7 @@ code {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 9001;
+    z-index: 9;
 }
 
     #footer a {
@@ -239,14 +241,14 @@ code {
     top: 100%; /* Position the dropdown menu below the button */
     left: 0;
     display: none;
-    z-index: 9;
+    z-index: 20;
 }
 .dropdown-item {
-    z-index: 10; /* Ensure the dropdown menu appears above other elements */
+    z-index: 30; /* Ensure the dropdown menu appears above other elements */
 }
 
     .dropdown-menu a {
-        color: #9ab; /* Match the text color of other buttons */
+    color: #9ab; /* Match the text color of other buttons */
     display: block;
     padding: .75em 1.25em; /* Adjust padding as needed */
     text-decoration: none;
