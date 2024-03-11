@@ -4,7 +4,7 @@
 <div class="container">
     @foreach(var el in Model.shopCart.list_Items)//to show all existing items in the shop cart
     {
-        <div class="alert alert-warning mt-3">
+        <div class="alert alert-warning mt-3"> 
             <b>Game:</b> @el.games.gameName<br />
             <b>Price:</b>@el.games.price.ToString("c")<br />
             <img class="card-img-top img-fluid" src="@el.games.image" alt="@el.games.gameName" style="width: 200px; height: 200px; object-fit: cover;"  />

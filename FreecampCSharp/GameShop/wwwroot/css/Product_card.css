@@ -1,7 +1,7 @@
 ﻿body, /* styling for product card, using on all pages*/
 html {
     height: 100%;
-    padding-top: 80px;
+    padding-top: 80px;/* intermediate solution until not fixed merging between navbar dropdown and short cart items*/
 }
 
 .d-flex {
